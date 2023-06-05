@@ -33,11 +33,11 @@ import { TypeAnimation } from 'react-type-animation';
                                     sequence={[
                                         // Same String at the start will only be typed once, initially
                                         'Mental Health',
-                                        1000,
+                                        2000,
                                         'Physical Health',
-                                        1000,
+                                        2000,
                                         'Wellbeing',
-                                        1000,
+                                        2000,
                                     ]}
                                     speed={50}
                                     repeat={Infinity}

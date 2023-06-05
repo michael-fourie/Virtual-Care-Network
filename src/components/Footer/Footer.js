@@ -36,12 +36,11 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
+          We welcome your inquiries and invite you to reach out to us via email for any questions or concerns you may have.
         </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
+        <FooterSubText>A Cooperative Care Alliance member will respond promptly.</FooterSubText>
         <Form>
-          <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
+          <Button fontBig>Send Email</Button>
         </Form>
       </FooterSubscription>
       <FooterLinksContainer>
@@ -64,17 +63,10 @@ function Footer() {
         </FooterLinksWrapper>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
-          </FooterLinkItems>
-          <FooterLinkItems>
             <FooterLinkTitle>Social Media</FooterLinkTitle>
             <FooterLink to='/'>Instagram</FooterLink>
             <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
+            <FooterLink to='/'>LinkedIn</FooterLink>
             <FooterLink to='/'>Twitter</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
@@ -83,18 +75,15 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <SocialIcon />
-            ULTRA
+            VCN
           </SocialLogo>
-          <WebsiteRights>ULTRA © {date.getFullYear()} </WebsiteRights>
+          <WebsiteRights>VCN © {date.getFullYear()} </WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
               <FaInstagram />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='YouTube' >
-              <FaYoutube />
             </SocialIconLink>
             <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
               <FaTwitter />

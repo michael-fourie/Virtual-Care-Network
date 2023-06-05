@@ -4,13 +4,14 @@ import { homeObjOne, homeObjThree, homeObjTwo, homeObjFour} from './Data';
 import InfoSectionLanding from '../../components/InfoSection/InfoSectionLanding';
 
 const Home = () => {
+    
     return (
         <>
             <InfoSectionLanding {...homeObjOne} />
-            <InfoSection {...homeObjThree} />
+            {/* <InfoSection {...homeObjThree} />
             <InfoSection {...homeObjTwo} />
             <Pricing />
-            <InfoSection {...homeObjFour} />
+            <InfoSection {...homeObjFour} /> */}
         </>
     )
 }

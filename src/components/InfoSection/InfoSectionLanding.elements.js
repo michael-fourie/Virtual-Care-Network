@@ -93,6 +93,15 @@ export const Img = styled.img`
 `;
 
 export const Heading = styled.h1`
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    min-height: 270px;
+  }
+
+  /* Media query for desktop devices */
+  @media (min-width: 768px) {
+    min-height: fit-content;
+  }
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
