@@ -4,13 +4,13 @@ export const homeObjOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Marketing Agency',
-    headline: 'Lead Generation Specialist for Online Businesses',
+    topLine: 'Virtual Care Network',
+    headline: 'Providing Support For PSWs to Promote ',
     description:
-      'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod ex non metus dapibus efficitur. Proin sodales augue nec arcu viverra, ac gravida sem finibus. ',
     buttonLabel: 'Get Started',
     imgStart: '',
-    img: require('../../images/svg-1.svg'),
+    img: require('../../images/network.png'),
     alt: 'Credit Card',
     start: ''
   };

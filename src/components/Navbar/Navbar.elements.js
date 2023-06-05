@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import { Container } from '../../globalStyles'
-import { FaMagento } from 'react-icons/fa'
+import { FaClinicMedical } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 export const Nav = styled.nav`
-    background: #101522;
+    background: #04206a;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ export const NavLogo = styled(Link)`
     align-items: center;
 `
 
-export const NavIcon = styled(FaMagento)`
+export const NavIcon = styled(FaClinicMedical)`
     margin-right: 0.5rem;
 
 `
@@ -68,7 +68,7 @@ export const NavMenu = styled.ul`
         top: 80px;
         opacity: 1;
         transition: all 0.5s ease;
-        background-color: #101522;
+        background-color: #04206a;
         left: ${({ click }) => (click ? 0 : '-100%')};
     }
 `

@@ -2,7 +2,7 @@ import React from 'react';
 import { InfoSection } from '../../components';
 import { homeObjOne } from './Data';
 
-function SignUp() {
+function Wellbeing() {
   return (
     <>
       <InfoSection {...homeObjOne} />
@@ -10,4 +10,4 @@ function SignUp() {
   );
 }
 
-export default SignUp;
+export default Wellbeing;

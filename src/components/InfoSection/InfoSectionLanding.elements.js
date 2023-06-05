@@ -1,10 +1,25 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
+// Define the bouncing animation keyframes
+const bounceAnimation = keyframes`
+0%, 100% {
+  transform: scale(1);
+}
+50% {
+  transform: scale(1.2);
+}
+`;
 
 export const InfoSec = styled.div`
     color: #fff;
     padding: 160px 0;
-    background: ${({lightBg}) => (lightBg ? '#fff' : '#324b8c')};
+    background-image: linear-gradient(
+      135deg,
+      hsl(247deg 80% 29%) 0%,
+      hsl(243deg 40% 53%) 37%,
+      hsl(236deg 56% 71%) 60%,
+      hsl(230deg 87% 85%) 100%
+    );
 `
 
 export const InfoRow = styled.div`
@@ -74,6 +89,7 @@ export const Img = styled.img`
   vertical-align: middle;
   display: inline-block;
   max-height: 500px;
+  animation: ${bounceAnimation} 3s ease-in-out infinite;
 `;
 
 export const Heading = styled.h1`

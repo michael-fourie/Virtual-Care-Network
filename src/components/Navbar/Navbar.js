@@ -66,7 +66,7 @@ function Navbar() {
                 <NavbarContainer>
                     <NavLogo to='/'> 
                         <NavIcon />
-                            ULTRA
+                            VCN
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
@@ -80,30 +80,24 @@ function Navbar() {
                     
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
-                            <NavLinks to='/services' onClick={closeMobileMenu}>
-                                Services
+                            <NavLinks to='/mental' onClick={closeMobileMenu}>
+                                Mental
                             </NavLinks>
                         </NavItem>
                     
                     
                         <NavItem onClick={handleProductsClick} productsClick={productsClick}>
-                            <NavLinks to='/Products' onClick={closeMobileMenu}>
-                                Products
+                            <NavLinks to='/physical' onClick={closeMobileMenu}>
+                                Physical
                             </NavLinks>
                         </NavItem>
 
-                        <NavItemBtn >
-                            {button ? (
-                                <NavBtnLink to='/sign-up'>
-                                    <Button primary>SIGN UP</Button>
-                                </NavBtnLink>
-                            ) : (
-                                <NavBtnLink to='/sign-up'>
-                                    <Button onClick={closeMobileMenu} fontBig primary>SIGN UP</Button>
-                                </NavBtnLink>
-                            )}
-                            
-                        </NavItemBtn>
+                        <NavItem onClick={handleProductsClick} productsClick={productsClick}>
+                            <NavLinks to='/wellbeing' onClick={closeMobileMenu}>
+                                Wellbeing
+                            </NavLinks>
+                        </NavItem>
+
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
