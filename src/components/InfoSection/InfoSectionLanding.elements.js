@@ -2,17 +2,27 @@ import styled, { keyframes } from 'styled-components';
 
 // Define the bouncing animation keyframes
 const bounceAnimation = keyframes`
-0%, 100% {
-  transform: scale(1);
-}
-50% {
-  transform: scale(1.2);
-}
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    50% {
+      transform: scale(1.15) rotate(4deg);
+    }
+    100% {
+      transform: scale(1) rotate(0deg);
+    }
 `;
 
 export const InfoSec = styled.div`
     color: #fff;
     padding: 160px 0;
+    @media (min-width: 480px) and (max-width: 1200px) {
+      padding: 160px 0;
+    }
+  
+    @media (min-width: 320px) and (max-width: 480px) {
+      padding: 60px 0;
+    }
     background-image: linear-gradient(
       135deg,
       hsl(247deg 80% 29%) 0%,
@@ -31,8 +41,8 @@ export const InfoRow = styled.div`
 `;
 
 export const InfoColumn = styled.div`
-  margin-bottom: 15px;
-  padding-right: 15px;
+  margin-bottom: 5px;
+  padding-right: 5px;
   padding-left: 15px;
   flex: 1;
   max-width: 50%;
@@ -74,7 +84,7 @@ export const ImgWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
+  color: ${({ lightTopLine }) => (lightTopLine ? '#FDF8F0' : '#4B59F7')};
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
@@ -95,7 +105,7 @@ export const Img = styled.img`
 export const Heading = styled.h1`
   /* Media query for mobile devices */
   @media (max-width: 767px) {
-    min-height: 270px;
+    min-height: 280px;
   }
 
   /* Media query for desktop devices */
@@ -106,7 +116,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+  color: ${({ lightText }) => (lightText ? '#FDF8F0' : '#1c2237')};
 `;
 
 export const Subtitle = styled.p`
@@ -114,5 +124,5 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#FDF8F0' : '#1c2237')};
 `;

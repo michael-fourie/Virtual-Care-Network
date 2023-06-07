@@ -38,14 +38,14 @@ export const homeObjOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Sarah Jeni',
+    topLine: '',
     headline:
-      'Ultra helped me increase my revenue by over 3X in less than 3 months!',
+      'Personal support workers empower communities through their selfless commitment to assisting others.',
     description:
-      "Their team is wonderful! I can't believe I didn't start working with them earlier.",
-    buttonLabel: 'View Case Study',
+      "However, sometimes they lack the support they need for themselves.",
+    buttonLabel: '',
     imgStart: 'start',
-    img: require('../../images/profile.jpg'),
+    img: require('../../images/CCA.png'),
     alt: 'Vault',
     start: 'true'
   };

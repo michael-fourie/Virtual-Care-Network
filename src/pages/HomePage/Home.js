@@ -1,15 +1,16 @@
 import React from 'react';
-import { InfoSection, Pricing } from '../../components';
+import { Pricing } from '../../components';
 import { homeObjOne, homeObjThree, homeObjTwo, homeObjFour} from './Data';
 import InfoSectionLanding from '../../components/InfoSection/InfoSectionLanding';
+import InfoSectionLandingTwo from '../../components/InfoSection/InfoSectionLandingTwo';
 
 const Home = () => {
     
     return (
         <>
             <InfoSectionLanding {...homeObjOne} />
-            {/* <InfoSection {...homeObjThree} />
-            <InfoSection {...homeObjTwo} />
+            <InfoSectionLandingTwo {...homeObjThree} />
+            {/* <InfoSection {...homeObjTwo} />
             <Pricing />
             <InfoSection {...homeObjFour} /> */}
         </>

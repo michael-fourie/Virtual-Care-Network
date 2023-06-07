@@ -39,6 +39,37 @@ export const Container = styled.div`
   }
 `;
 
+export const ContainerCol = styled.div`
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  @media screen and (max-width: 991px) {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  @media (min-width: 480px) and (max-width: 1200px) {
+    flex-direction: row;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    flex-direction: column;
+  }
+  display: flex;
+  justify-content: center;
+`;
+
+export const ContainerNoCap = styled.div`
+z-index: 1;
+width: 100%;
+max-width: 66%;
+margin-right: auto;
+margin-left: auto;
+`;
+
 export const Button = styled.button`
   border-radius: 4px;
   background: ${({ primary }) => (primary ? '#4B59F7' : '#0467FB')};
