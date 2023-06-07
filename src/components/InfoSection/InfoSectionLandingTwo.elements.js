@@ -124,20 +124,20 @@ export const DivWithShadow = styled.div`
   margin: auto;
   padding: 20px;
   background-color: white;
-  margin-left: 40px;
   margin-bottom: 8%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
   text-align: center;
   border-radius: 30px;
-  
+  height: fit-content;
+
   @media (min-width: 480px) and (max-width: 1200px) {
-    width: 30%;
+    margin-right: 10px;
   }
 
   @media (min-width: 320px) and (max-width: 480px) {
-    width: 100% 
+    margin-right: 0px;
   }
-  height: fit-content;
+
 `;
 
 export const Header = styled.h2`

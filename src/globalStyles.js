@@ -60,6 +60,7 @@ export const ContainerCol = styled.div`
   }
   display: flex;
   justify-content: center;
+  gap: 30px;
 `;
 
 export const ContainerNoCap = styled.div`
