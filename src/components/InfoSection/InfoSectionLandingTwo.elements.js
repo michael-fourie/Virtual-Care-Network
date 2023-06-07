@@ -122,10 +122,10 @@ export const Subtitle = styled.p`
 
 export const DivWithShadow = styled.div`
   margin: auto;
-  margin-bottom: 6%;
   padding: 20px;
   background-color: white;
   margin-left: 40px;
+  margin-bottom: 8%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
   text-align: center;
   border-radius: 30px;
