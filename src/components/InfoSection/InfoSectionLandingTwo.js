@@ -1,5 +1,5 @@
 import React from 'react'
-import {DivWithShadow, Body, Header, InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, HorizontalLine} from './InfoSectionLandingTwo.elements'
+import {DivWithShadow, Body, Header, InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, ImgIcon, HorizontalLine} from './InfoSectionLandingTwo.elements'
 import { Container, Button, ContainerCol } from '../../globalStyles'
 import { Link } from 'react-router-dom'
 import one from "../../images/iconOne.png"
@@ -48,24 +48,39 @@ const InfoSectionLandingTwo = ({
                 <ContainerCol>
                     <DivWithShadow>
                         <ImgWrapper start={start}>
-                        <Img src={one} alt="Image 1" />
+                        <ImgIcon src={one} alt="Image 1" />
                         </ImgWrapper>
                         <Heading>Mental Support</Heading>
                         <Subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed fringilla arcu, at vestibulum lectus. Quisque bibendum mauris non justo aliquet dignissim. Curabitur vulputate urna turpis, nec gravida velit ultricies ac.</Subtitle>
+                        <Link to='/mental'>
+                            <Button big fontBig primary={primary}>
+                                    More
+                            </Button>
+                        </Link>
                     </DivWithShadow>
                     <DivWithShadow>
                         <ImgWrapper start={start}>
-                        <Img src={two} alt="Image 2" />
+                        <ImgIcon src={two} alt="Image 2" />
                         </ImgWrapper>
                         <Heading>Physical Support</Heading>
                         <Subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed fringilla arcu, at vestibulum lectus. Quisque bibendum mauris non justo aliquet dignissim. Curabitur vulputate urna turpis, nec gravida velit ultricies ac.</Subtitle>
+                        <Link to='/physical'>
+                            <Button big fontBig primary={primary}>
+                                    More
+                            </Button>
+                        </Link>
                     </DivWithShadow>
                     <DivWithShadow>
                         <ImgWrapper start={start}>
-                        <Img src={three} alt="Image 3" />
+                        <ImgIcon src={three} alt="Image 3" />
                         </ImgWrapper>
                         <Heading>Wellbeing</Heading>
                         <Subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed fringilla arcu, at vestibulum lectus. Quisque bibendum mauris non justo aliquet dignissim. Curabitur vulputate urna turpis, nec gravida velit ultricies ac.</Subtitle>
+                        <Link to='/wellbeing'>
+                            <Button big fontBig primary={primary}>
+                                    More
+                            </Button>
+                        </Link>
                     </DivWithShadow>
                 </ContainerCol>
             </InfoSec>

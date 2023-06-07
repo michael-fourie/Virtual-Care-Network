@@ -98,18 +98,18 @@ export const ImgIcon = styled.img`
 
 export const HorizontalLine = styled.div`
   margin: 0 auto;
-  width: 100%;
-  height: 2px;
+  width: 70%;
+  height: 1px;
   background-color: #62658a;
   margin-bottom: 4%;
-  margin-top: 4%;
+  margin-top: 1%;
   border-radius: 5px;
 
   `;
 
 
 export const Heading = styled.h1`
-  margin-bottom: 14px;
+  margin-bottom: 5%;
   font-size: 30px;
   line-height: 1.1;
   font-weight: 600;
@@ -123,24 +123,33 @@ export const Subtitle = styled.p`
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
   font-size: 20px;
+  font-weight: 600;
   line-height: 22px;
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 `;
-
-export const DivWithShadow = styled.div`
+export const MediaContainer = styled.div`
   margin: auto;
+  padding: 10px;
+  margin-bottom: 3%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+`;
+export const DivWithShadow = styled.div`
   padding: 20px;
   background-color: white;
   margin-bottom: 8%;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
   text-align: center;
-  border-radius: 30px;
+  border-radius: 20px;
   height: fit-content;
-  background: rgb(237,237,237);
-  background: linear-gradient(180deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 25%);
-
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const Header = styled.h2`

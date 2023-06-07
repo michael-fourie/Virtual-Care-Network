@@ -45,8 +45,6 @@ export const ContainerCol = styled.div`
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
   @media screen and (max-width: 991px) {
     padding-right: 30px;
     padding-left: 30px;
@@ -60,7 +58,7 @@ export const ContainerCol = styled.div`
   }
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 7%;
 `;
 
 export const ContainerNoCap = styled.div`
