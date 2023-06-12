@@ -5,9 +5,9 @@ import { homeObjOne, homeObjThree } from './Data';
 function Mental() {
   return (
     <>
-      <Pricing />
+      {/* <Pricing />
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjThree} />
+      <InfoSection {...homeObjThree} /> */}
     </>
   );
 }

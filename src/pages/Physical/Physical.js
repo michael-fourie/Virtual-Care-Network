@@ -5,8 +5,8 @@ import { homeObjOne, homeObjTwo } from './Data';
 function Phsyical() {
   return (
     <>
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+      {/* <InfoSection {...homeObjOne} />
+      <InfoSection {...homeObjTwo} /> */}
     </>
   );
 }

@@ -45,6 +45,8 @@ export const ContainerCol = styled.div`
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 45px;
+  padding-right: 45px;
   @media screen and (max-width: 991px) {
     padding-right: 30px;
     padding-left: 30px;
@@ -79,13 +81,11 @@ export const Button = styled.button`
   outline: none;
   border: none;
   cursor: pointer;
+  margin: auto;
   &:hover {
     transition: all 0.3s ease-out;
     background: #fff;
     background-color: ${({ primary }) => (primary ? '#0467FB' : '#4B59F7')};
-  }
-  @media screen and (max-width: 960px) {
-    width: 100%;
   }
 `;
 

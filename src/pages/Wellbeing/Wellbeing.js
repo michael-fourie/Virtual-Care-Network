@@ -5,7 +5,7 @@ import { homeObjOne } from './Data';
 function Wellbeing() {
   return (
     <>
-      <InfoSection {...homeObjOne} />
+      {/* <InfoSection {...homeObjOne} /> */}
     </>
   );
 }

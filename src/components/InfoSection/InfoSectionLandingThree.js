@@ -1,8 +1,8 @@
 import React from 'react'
 import {HorizontalLine, DivWithShadow, InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img, MediaContainer} from './InfoSectionLandingThree.elements'
-import { ContainerCol,  } from '../../globalStyles'
+import { Button, ContainerCol,  } from '../../globalStyles'
 import { FacebookEmbed, TwitterEmbed, InstagramEmbed } from 'react-social-media-embed';
-
+import {isMobile} from 'react-device-detect';
  const InfoSectionLandingThree = ({ 
     
     primary,
@@ -19,6 +19,7 @@ import { FacebookEmbed, TwitterEmbed, InstagramEmbed } from 'react-social-media-
     imgStart,
     start
 }) => {
+
     return (
         <>
             <InfoSec lightBg={lightBg}>
@@ -28,42 +29,57 @@ import { FacebookEmbed, TwitterEmbed, InstagramEmbed } from 'react-social-media-
                         <Subtitle>Facebook</Subtitle>
                         <HorizontalLine/>
                         <MediaContainer>
-                            <FacebookEmbed url="https://www.facebook.com/daniellewyatt.turpin/posts/10167681193175634" height={275}/>
+                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdaniellewyatt.turpin%2Fposts%2Fpfbid02Y52KEbB5YFKbJYSZUQRMNWYuuLSRRXnuRPSWf8BSde4YB76gKS9pDFuvBzzLavwQl&show_text=true" width={isMobile ? "85%" : "550px"} height="570" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </MediaContainer>
                         <MediaContainer>
-                            <FacebookEmbed url="https://www.facebook.com/daniellewyatt.turpin/posts/10167681193175634" height={275} />
-                            </MediaContainer>
-                        <MediaContainer>
-                            <FacebookEmbed url="https://www.facebook.com/daniellewyatt.turpin/posts/10167681193175634" height={275}/>
+                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdaniellewyatt.turpin%2Fposts%2Fpfbid02Y52KEbB5YFKbJYSZUQRMNWYuuLSRRXnuRPSWf8BSde4YB76gKS9pDFuvBzzLavwQl&show_text=true" width={isMobile ? "85%" : "550px"} height="570" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </MediaContainer>
+                        <MediaContainer>
+                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdaniellewyatt.turpin%2Fposts%2Fpfbid02Y52KEbB5YFKbJYSZUQRMNWYuuLSRRXnuRPSWf8BSde4YB76gKS9pDFuvBzzLavwQl&show_text=true" width={isMobile ? "85%" : "550px"} height="570" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </MediaContainer>
+                        <Button big fontBig primary={primary}>
+                            More
+                        </Button>
                      </DivWithShadow>
         
                      <DivWithShadow>
                         <Subtitle>Instagram</Subtitle>  
                         <HorizontalLine/>  
                         <MediaContainer>
-                            <InstagramEmbed url="https://www.instagram.com/p/CrvyIOEO5hj/?utm_source=ig_embed&amp;utm_campaign=loading" height={275}/>
+                            <iframe src="https://www.instagram.com/p/CrvyIOEO5hj/embed/captioned/?cr=1&amp;v=14&amp;wp=652&amp;rd=http%3A%2F%2Flocalhost%3A3000&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A605.2999999970198%2C%22ls%22%3A544.5999999940395%2C%22le%22%3A578.3999999910593%7D" allowtransparency="true" allowfullscreen="true" frameborder="1" width={isMobile ? "250" : "400"} height={isMobile ? "400" : "600"} data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" ></iframe>
                         </MediaContainer>
                         <MediaContainer>
-                            <InstagramEmbed url="https://www.instagram.com/p/CrvyIOEO5hj/?utm_source=ig_embed&amp;utm_campaign=loading" height={275}/>
+                            <iframe src="https://www.instagram.com/p/CrvyIOEO5hj/embed/captioned/?cr=1&amp;v=14&amp;wp=652&amp;rd=http%3A%2F%2Flocalhost%3A3000&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A605.2999999970198%2C%22ls%22%3A544.5999999940395%2C%22le%22%3A578.3999999910593%7D" allowtransparency="true" allowfullscreen="true" frameborder="1" width={isMobile ? "250" : "400"} height={isMobile ? "400" : "600"} data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" ></iframe>
                         </MediaContainer>
                         <MediaContainer>
-                            <InstagramEmbed url="https://www.instagram.com/p/CrvyIOEO5hj/?utm_source=ig_embed&amp;utm_campaign=loading" height={275}/>
-                        </MediaContainer>            
+                            <iframe src="https://www.instagram.com/p/CrvyIOEO5hj/embed/captioned/?cr=1&amp;v=14&amp;wp=652&amp;rd=http%3A%2F%2Flocalhost%3A3000&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A605.2999999970198%2C%22ls%22%3A544.5999999940395%2C%22le%22%3A578.3999999910593%7D" allowtransparency="true" allowfullscreen="true" frameborder="1" width={isMobile ? "250" : "400"} height={isMobile ? "400" : "600"} data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" ></iframe>
+                        </MediaContainer>
+                        <Button big fontBig primary={primary}>
+                            More
+                        </Button>            
                      </DivWithShadow>
 
                      <DivWithShadow>
                         <Subtitle>Twitter</Subtitle> 
                         <HorizontalLine/>
                         <MediaContainer>
-                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" height={275}/>
+                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" height="fit-content"/>
                         </MediaContainer>
                         <MediaContainer>
-                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" height={275}/>
+                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" height="fit-content"/>
                         </MediaContainer>
                         <MediaContainer>
-                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" height={275}/>
+                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" height="fit-content"/>
                         </MediaContainer>
+                        <MediaContainer>
+                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" height="fit-content"/>
+                        </MediaContainer>
+                        <MediaContainer>
+                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" height="fit-content"/>
+                        </MediaContainer>
+                        <Button big fontBig primary={primary}>
+                            More
+                        </Button>
                      </DivWithShadow>
                 </ContainerCol>
             </InfoSec>
