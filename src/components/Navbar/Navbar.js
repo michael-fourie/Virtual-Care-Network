@@ -66,7 +66,7 @@ function Navbar() {
                 <NavbarContainer>
                     <NavLogo to='/'> 
                         <NavIcon />
-                            CCA
+                            VCN
                     </NavLogo>
                     <HamburgerIcon onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}

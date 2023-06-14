@@ -79,7 +79,7 @@ export const ImgIcon = styled.img`
   margin: auto;
   padding-right: 0;
   border: 0;
-  max-width: 25%;
+  max-width: 100px;
   vertical-align: middle;
   display: inline-block;
 `;
@@ -98,13 +98,19 @@ export const HorizontalLine = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 5%;
-  font-size: 45px;
   line-height: 1.1;
   font-weight: 600;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
+  @media (min-width: 480px) and (max-width: 1200px) {
+    font-size: 45px;
+  }
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    font-size: 32px;
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -119,7 +125,7 @@ export const Subtitle = styled.p`
 `;
 export const MediaContainer = styled.div`
   margin: auto;
-  margin-bottom: 4%;
+  margin-bottom: 6%;
   background-color: white;
   display: flex;
   justify-content: center;

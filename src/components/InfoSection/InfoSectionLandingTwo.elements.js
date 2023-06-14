@@ -137,10 +137,22 @@ export const DivWithShadow = styled.div`
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
   text-align: center;
   border-radius: 30px;
-  height: fit-content;
+  
+  
   background: rgb(237,237,237);
   background: linear-gradient(180deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 25%);
-
+  @media (min-width: 1290px) and (max-width: 12000px) {
+    height: 50vh;
+    width: 30vw;
+  }
+  @media (min-width: 950px) and (max-width: 1290px) {
+    height: 60vh;
+    width: 30vw;
+  }
+  @media (min-width: 0px) and (max-width: 950px) {
+    height: fit-content;
+    width: 75vw;
+  }
 `;
 
 export const Header = styled.h2`

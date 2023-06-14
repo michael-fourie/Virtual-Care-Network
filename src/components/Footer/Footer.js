@@ -75,7 +75,7 @@ function Footer() {
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <SocialIcon />
-            CCA
+            VCN
           </SocialLogo>
           <WebsiteRights>VCN © {date.getFullYear()} </WebsiteRights>
           <SocialIcons>

@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'Virtual Care Network',
-    headline: 'Providing Support For PSWs to Promote ',
+    headline: 'Providing Support For Healthcare Professionals to Promote ',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod ex non metus dapibus efficitur. Proin sodales augue nec arcu viverra, ac gravida sem finibus. ',
     buttonLabel: 'Get Started',
@@ -42,7 +42,7 @@ export const homeObjOne = {
     headline:
       'Personal support workers empower communities through their selfless commitment to assisting others.',
     description:
-      "However, sometimes they lack the support they need for themselves.",
+      "However, sometimes they lack the support they need for themselves. The virtual nature of these services ensures confidentiality and privacy, enabling healthcare workers to seek help without fear of judgment or stigma.",
     buttonLabel: '',
     imgStart: 'start',
     img: require('../../images/CCA.png'),

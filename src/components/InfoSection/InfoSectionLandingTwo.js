@@ -51,7 +51,7 @@ const InfoSectionLandingTwo = ({
                         <ImgIcon src={one} alt="Image 1" />
                         </ImgWrapper>
                         <Heading>Mental Support</Heading>
-                        <Subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed fringilla arcu, at vestibulum lectus. Quisque bibendum mauris non justo aliquet dignissim. Curabitur vulputate urna turpis, nec gravida velit ultricies ac.</Subtitle>
+                        <Subtitle>The Virtual Care Network has recognized the immense stress and emotional toll experienced by healthcare workers on the frontlines. Healthcare workers can access the VCN services without fear of stigma, ensuring their emotional well-being is prioritized.</Subtitle>
                         <Link to='/mental'>
                             <Button big fontBig primary={primary}>
                                     More
@@ -63,7 +63,7 @@ const InfoSectionLandingTwo = ({
                         <ImgIcon src={two} alt="Image 2" />
                         </ImgWrapper>
                         <Heading>Physical Support</Heading>
-                        <Subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed fringilla arcu, at vestibulum lectus. Quisque bibendum mauris non justo aliquet dignissim. Curabitur vulputate urna turpis, nec gravida velit ultricies ac.</Subtitle>
+                        <Subtitle>By utilizing the Virtual Care Network, healthcare professionals can address their physical health needs effectively, ensuring they stay healthy, resilient, and able to provide optimal care to their patients.</Subtitle>
                         <Link to='/physical'>
                             <Button big fontBig primary={primary}>
                                     More
@@ -75,7 +75,7 @@ const InfoSectionLandingTwo = ({
                         <ImgIcon src={three} alt="Image 3" />
                         </ImgWrapper>
                         <Heading>Wellbeing</Heading>
-                        <Subtitle>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed fringilla arcu, at vestibulum lectus. Quisque bibendum mauris non justo aliquet dignissim. Curabitur vulputate urna turpis, nec gravida velit ultricies ac.</Subtitle>
+                        <Subtitle>Healthcare workers can access a variety of support systems tailored to promote their wellbeing, including mental health check-ins, and resources for stress management and self-care. The VCN allows for flexibility in scheduling, allowing healthcare workers to seek support at their convenience, even during irregular hours or busy shifts.</Subtitle>
                         <Link to='/wellbeing'>
                             <Button big fontBig primary={primary}>
                                     More

@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
 export const Container = styled.div`
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 75%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 50px;
@@ -42,7 +42,6 @@ export const Container = styled.div`
 export const ContainerCol = styled.div`
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 45px;
@@ -51,16 +50,16 @@ export const ContainerCol = styled.div`
     padding-right: 30px;
     padding-left: 30px;
   }
-  @media (min-width: 480px) and (max-width: 1200px) {
+  @media (min-width: 900px) and (max-width: 12000px) {
     flex-direction: row;
   }
 
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (min-width: 320px) and (max-width: 950px) {
     flex-direction: column;
   }
   display: flex;
   justify-content: center;
-  gap: 7%;
+  gap: 5%;
 `;
 
 export const ContainerNoCap = styled.div`
