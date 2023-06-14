@@ -14,25 +14,8 @@ export const homeObjOne = {
     alt: 'Credit Card',
     start: ''
   };
-  
+    
   export const homeObjTwo = {
-    primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Instant Setup',
-    headline: 'Extremely quick onboarding process',
-    description:
-      "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
-    buttonLabel: 'Learn More',
-    imgStart: '',
-    img: require('../../images/svg-2.svg'),
-    alt: 'Vault',
-    start: ''
-  };
-  
-  export const homeObjThree = {
     primary: false,
     lightBg: true,
     lightTopLine: false,
@@ -50,7 +33,7 @@ export const homeObjOne = {
     start: 'true'
   };
   
-  export const homeObjFour = {
+  export const homeObjThree = {
     primary: true,
     lightBg: false,
     lightTopLine: true,
@@ -65,4 +48,21 @@ export const homeObjOne = {
     img: require('../../images/svg-3.svg'),
     alt: 'Vault',
     start: 'true'
+  };
+
+  export const homeObjFour = {
+    primary: true,
+    lightBg: false,
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Instant Setup',
+    headline: 'Extremely quick onboarding process',
+    description:
+      "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
+    buttonLabel: 'Learn More',
+    imgStart: '',
+    img: require('../../images/svg-2.svg'),
+    alt: 'Vault',
+    start: ''
   };

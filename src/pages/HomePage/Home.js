@@ -4,6 +4,7 @@ import { homeObjOne, homeObjThree, homeObjTwo, homeObjFour} from './Data';
 import InfoSectionLanding from '../../components/InfoSection/InfoSectionLanding';
 import InfoSectionLandingTwo from '../../components/InfoSection/InfoSectionLandingTwo';
 import InfoSectionLandingThree from '../../components/InfoSection/InfoSectionLandingThree';
+import InfoSectionLandingFour from '../../components/InfoSection/InfoSectionLandingFour';
 
 
 const Home = () => {
@@ -11,11 +12,9 @@ const Home = () => {
     return (
         <>
             <InfoSectionLanding {...homeObjOne} />
-            <InfoSectionLandingTwo {...homeObjThree} />
-            <InfoSectionLandingThree {...homeObjFour} />
-            {/* <InfoSection {...homeObjTwo} />
-            <Pricing />
-            <InfoSection {...homeObjFour} /> */}
+            <InfoSectionLandingTwo {...homeObjTwo} />
+            <InfoSectionLandingThree {...homeObjThree} />
+            <InfoSectionLandingFour {...homeObjFour} />
         </>
     )
 }
