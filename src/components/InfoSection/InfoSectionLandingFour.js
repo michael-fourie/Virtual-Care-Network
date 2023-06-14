@@ -49,7 +49,7 @@ const styles = {
 
 const config = {
     animate: true,
-    arrowIcon: "V",
+    arrowIcon: "v",
     tabFocus: true
 };
 
