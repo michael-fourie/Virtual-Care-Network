@@ -9,6 +9,14 @@
     padding-bottom: 10%;
   }
 
+@media (max-width: 767px) {
+  .container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+  
+
   .image-container {
     width: 100%;
   }
@@ -37,6 +45,13 @@
     color: white;
   }
 
+  @media (max-width: 767px) {
+    .sub-header-text{
+      font-size: 16px;
+      width: 85%;
+    }
+  }
+
   .sub-header-two{
     margin-top: -2%;
     width: 100%;
@@ -62,6 +77,13 @@
     width: 75%;
   }
   
+  @media (max-width: 767px) {
+    .column-outer{
+      width: 85%;
+    }
+  }
+
+
   .column-inner {
     display: flex;
     flex-direction: row;
@@ -70,26 +92,27 @@
     margin: 1%;
   }
   
-  /* For mobile devices */
-  @media (max-width: 767px) {
-    .column-outer {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
 
   .section-block {
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #c2c2c2;
+    border-radius: 5%;
     padding: 20px;
     width: 100%;
     margin: 1%;
-    height: 230px; /* Set the desired fixed height for all section-block elements */
+    height: 230px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    background: linear-gradient(#ffffff, #e8e8e8);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
   } 
 
+  @media (max-width: 767px) {
+    .section-block {
+      padding: 5px;
+      height: 200px;
+    }
+  }
   .section-block-button-one {
     width: 75%;
     margin: auto;
@@ -107,6 +130,7 @@
     background-color: #324b8c;
     color: white;
     border: none;
+    font-size: 18px;
   }
 
   .text-block {
@@ -123,6 +147,14 @@
     margin: auto;
     margin-bottom: 10px;
   }
+
+  @media (max-width: 767px) {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  
   
   .image-block {
     margin-bottom: 20px;
