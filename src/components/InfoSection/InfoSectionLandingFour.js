@@ -5,37 +5,43 @@ import { useEffect, useState } from "react";
 import Faq from "react-faq-component";
 
 const data = {
-    title: "FAQ (How it works)",
+    title: "Frequently Asked Questions",
     rows: [
         {
-            title: "This is a question",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-              ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-              In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-              Fusce sed commodo purus, at tempus turpis.`,
+            title: "What is the mission and vision of the Virtual Care Network?",
+            content: `The mission of the Virtual Care Network is to prioritize the well-being of caregivers by providing
+            accessible and comprehensive support services. We aim to empower caregivers to fulfill their
+            caregiving responsibilities while safeguarding their mental and physical health.
+            Our vision is to create a virtual care ecosystem that recognizes and addresses the unique
+            challenges faced by caregivers. By fostering a community of caregivers, we aspire to enhance
+            their resilience, promote self-care practices, and ensure their overall health and wellness.
+            Peer Support and Community: The Virtual Care Network fosters a sense of community among
+            caregivers, providing opportunities for peer support and connection. This includes online
+            support groups, forums, and discussion boards where caregivers can share experiences, seek
+            advice, and find emotional support from others facing similar challenges.
+            Empowerment and Resilience: The Virtual Care Network empowers caregivers by equipping
+            them with tools and resources to build resilience and cope with the demands of caregiving. This
+            involves promoting self-advocacy, providing coping strategies, and encouraging caregivers to
+            prioritize their own well-being.`,
         },
         {
-            title: "This is a question",
+            title: "Are there any eligibility criteria or requirements for accessing the programs/services?",
             content:
-            `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-            ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-            In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-            Fusce sed commodo purus, at tempus turpis.`,
+            `The primary eligibility criterion is being employed or working in a healthcare field. The intention
+            of the VCN is to provide a platform for healthcare professionals to come together, share
+            experiences, seek support, and connect with others in similar roles. Healthcare professionals
+            from various disciplines (such as doctors, nurses, therapists, technicians, administrators, etc.)
+            are welcome to join and participate. The requirement would be limited to individuals actively
+            involved in healthcare provision or related support roles. Other than the healthcare
+            employment criterion, there is not any additional eligibility criteria or requirements for
+            accessing the programs or services on the website. The focus is to foster a sense of community,
+            collaboration, and mutual support among healthcare professionals.`,
         },
         {
-            title: "This is a question",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-            ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-            In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-            Fusce sed commodo purus, at tempus turpis.`,
-        },
-        {
-            title: "This is a question",
-            content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-            ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-            In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-            Fusce sed commodo purus, at tempus turpis.`,
-        },
+            title: "What are the different dimensions of the Virtual Care Network (physical, mental, well-being)?",
+            content: `The Virtual Care Network encompasses various dimensions of care to address the holistic well-
+            being of caregiving individuals.`,
+        }
     ],
 };
 
