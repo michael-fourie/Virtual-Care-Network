@@ -1,0 +1,164 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: #FDF8F0;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+  
+
+  .image-container {
+    width: 100%;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .sub-header{
+    margin-top: -2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #324b8c;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  .sub-header-text{
+    width: 75%;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+  }
+
+  @media (max-width: 767px) {
+    .sub-header-text{
+      font-size: 16px;
+      width: 85%;
+    }
+  }
+
+  .sub-header-two{
+    margin-top: -2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 4%;
+  }
+
+  .sub-header-text-two{
+    width: 75%;
+    font-size: 28px;
+    font-weight: 100;
+    color: black;
+  }
+
+  .column-outer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  
+  @media (max-width: 767px) {
+    .column-outer{
+      width: 85%;
+    }
+  }
+
+
+  .column-inner {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex: 1;
+    margin: 1%;
+  }
+  
+
+  .section-block {
+    border: 1px solid #c2c2c2;
+    border-radius: 5%;
+    padding: 20px;
+    width: 100%;
+    margin: 1%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(#ffffff, #e8e8e8);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  } 
+
+  @media (max-width: 767px) {
+    .section-block {
+      padding: 5px;
+      height: 200px;
+    }
+  }
+  .section-block-button-one {
+    width: 75%;
+    margin: auto;
+    padding: 8px;
+    background-color: #ADD8E6;
+    color: white;
+    border: none;
+    font-size: 18px;
+  }
+
+  .section-block-button-two {
+    width: 75%;
+    margin: auto;
+    padding: 8px;
+    background-color: #324b8c;
+    color: white;
+    border: none;
+    font-size: 18px;
+  }
+
+  .text-block {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 22px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 767px) {
+    p {
+      font-size: 14px;
+    }
+  }
+
+  
+  
+  .image-block {
+    margin-bottom: 20px;
+  }
+  
+
+  
