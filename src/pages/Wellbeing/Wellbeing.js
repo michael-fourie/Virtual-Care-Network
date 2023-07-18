@@ -10,36 +10,36 @@ function Wellbeing() {
         <img src={banner} alt="Image" />
       </div>
 
-      <div className="sub-header">
-        <h3 className="sub-header-text">The demanding and emotionally challenging nature of healthcare work can take a toll on mental health, but remember that you are not alone. Your mental health matters, and by seeking support and implementing healthy coping strategies, you can continue to provide exceptional care while maintaining your own emotional well being.</h3>
+      <div className="sub-header-wellbeing">
+        <h3 className="sub-header-text">Your well-being is important, and be seeking support, you can sustain the ability to provide exceptional care.</h3>
       </div>
 
       <div className="sub-header-two">
-        <h3 className="sub-header-text-two">Explore our Mental Health resources page, and remember to prioritize your mental wellbeing</h3>
+        <h3 className="sub-header-text-two">Explore our Well-being resources page, and remember to prioritize your mental and physical health.</h3>
       </div>
       
       <div className="column-outer">
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Recognizing and addressing signs of caregiver depression and anxiety</p>
+            <p>Mindfulness and meditation practice for healthcare professionals</p>
             <button className="section-block-button-two">Click Here</button>
           </div>
 
           <div className="section-block">
-            <p>Strategies for preventing caregiver fatigue and exhaustion</p>
+            <p>Strategies for incorporating self-care into a busy caregiving schedule</p>
             <button className="section-block-button-one">Click Here</button>
           </div>
         </div>
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Toolkits for dealing with ethical dilemmas and moral distress in healthcare settings</p>
+            <p>Positive workplace culture and fostering well-being among health caregivers</p>
             <button className="section-block-button-one">Click Here</button>
           </div>
 
           <div className="section-block">
-            <p>Emotional resilience and coping mechanisms for healthcare givers</p>
+            <p>Explore different types of self-care activites (e.g., exercise, hobbies, relaxation techniques)</p>
             <button className="section-block-button-two">Click Here</button>
           </div>
         </div>

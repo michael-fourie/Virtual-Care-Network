@@ -7,7 +7,7 @@ export const homeObjOne = {
     topLine: 'Virtual Care Network',
     headline: 'Providing Support For Healthcare Professionals to Promote ',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod ex non metus dapibus efficitur. Proin sodales augue nec arcu viverra, ac gravida sem finibus. ',
+      'Join the Virtual Care Network today and take the first step towards finding the support you deserve! Together, we can build a community that uplifts and empowers personal support workers.',
     buttonLabel: 'Get Started',
     imgStart: '',
     img: require('../../images/network.png'),

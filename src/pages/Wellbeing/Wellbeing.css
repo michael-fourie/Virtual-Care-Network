@@ -27,12 +27,12 @@
     object-fit: cover;
   }
 
-  .sub-header{
+  .sub-header-wellbeing{
     margin-top: -2%;
     width: 100%;
     display: flex;
     justify-content: center;
-    background: #324b8c;
+    background: 249FBE;
     text-align: center;
     padding-top: 4%;
     padding-bottom: 4%;

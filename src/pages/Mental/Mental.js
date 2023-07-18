@@ -9,12 +9,12 @@ function Mental() {
         <img src={banner} alt="Image" />
       </div>
 
-      <div className="sub-header">
+      <div className="sub-header-mental">
         <h3 className="sub-header-text">The demanding and emotionally challenging nature of healthcare work can take a toll on mental health, but remember that you are not alone. Your mental health matters, and by seeking support and implementing healthy coping strategies, you can continue to provide exceptional care while maintaining your own emotional well being.</h3>
       </div>
 
       <div className="sub-header-two">
-        <h3 className="sub-header-text-two">Explore our Mental Health resources page, and remember to prioritize your mental wellbeing</h3>
+        <h3 className="sub-header-text-two">Explore our Mental Health resources page, and remember to prioritize your mental well-being</h3>
       </div>
       
       <div className="column-outer">

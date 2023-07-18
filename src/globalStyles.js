@@ -34,6 +34,7 @@ export const Container = styled.div`
   padding-right: 50px;
   padding-left: 50px;
   @media screen and (max-width: 991px) {
+    max-width: 100%;
     padding-right: 30px;
     padding-left: 30px;
   }
@@ -87,6 +88,24 @@ export const Button = styled.button`
     background-color: ${({ primary }) => (primary ? '#0467FB' : '#4B59F7')};
   }
 `;
+
+export const NavButton = styled.button`
+  border-radius: 4px;
+  background: ${({ primary }) => (primary ? '#4B59F7' : '#0467FB')};
+  white-space: nowrap;
+  padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
+  color: #fff;
+  font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 15%;
+  &:hover {
+    background: #fff;
+    background-color: ${({ primary }) => (primary ? '#0467FB' : '#4B59F7')};
+  }
+`;
+
 
 
 export default  GlobalStyles;   

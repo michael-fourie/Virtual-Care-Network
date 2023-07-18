@@ -12,7 +12,7 @@ import { Nav,
  } from './Navbar.elements'
 import { FaTimes, FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib'
-import { Button } from '../../globalStyles';
+import { NavButton } from '../../globalStyles';
 
 
 function Navbar() {
@@ -38,6 +38,10 @@ function Navbar() {
         setHomeClick(false);
         setProductsClick(true);
         setServicesClick(false);
+    }
+
+    const handleForumClick = () => {
+        window.location.href = 'https://carecooperatives91459d8a78.wpcomstaging.com';
     }
 
     const handleClick = () =>  setClick(!click);
@@ -97,7 +101,10 @@ function Navbar() {
                                 Wellbeing
                             </NavLinks>
                         </NavItem>
-
+                        
+                        <NavItem onClick={handleForumClick} productsClick={productsClick}>
+                            <NavButton fontBig>Forum</NavButton>
+                        </NavItem>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>

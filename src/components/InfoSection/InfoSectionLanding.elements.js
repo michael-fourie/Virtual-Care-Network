@@ -67,6 +67,7 @@ export const InfoColumn = styled.div`
 export const TextWrapper = styled.div`
   padding-top: 0;
   padding-bottom: 60px;
+  max-width: 85%;
 
   @media (min-width: 480px) and (max-width: 1200px) {
     padding-bottom: 65px;
@@ -120,7 +121,6 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  max-width: 440px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
