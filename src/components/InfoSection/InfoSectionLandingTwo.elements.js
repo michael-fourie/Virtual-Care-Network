@@ -142,7 +142,7 @@ export const DivWithShadow = styled.div`
   background: rgb(237,237,237);
   background: linear-gradient(180deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 25%);
   @media (min-width: 1290px) and (max-width: 12000px) {
-    height: 50vh;
+    height: 55vh;
     width: 30vw;
   }
   @media (min-width: 950px) and (max-width: 1290px) {
