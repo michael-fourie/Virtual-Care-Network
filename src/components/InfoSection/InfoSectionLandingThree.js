@@ -47,7 +47,7 @@ const InfoSectionLandingThree = ({
         twitterWidth = 250;
     } else if (windowWidth >= 951) {
             facebookWidth = 300;
-            instagramWidth = 175;
+            instagramWidth = 250;
             twitterWidth = 250;
     } else {
         facebookWidth = 275;
