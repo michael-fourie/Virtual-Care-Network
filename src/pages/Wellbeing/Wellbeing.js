@@ -1,6 +1,6 @@
 import React from 'react';
 import './Wellbeing.css';
-import banner from "../../images/mental-health-banner.jpg"
+import banner from "../../images/wellbeing-banner.jpg"
 
 function Wellbeing() {
   return (
