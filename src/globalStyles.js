@@ -40,6 +40,32 @@ export const Container = styled.div`
   }
 `;
 
+
+export const ContainerInfoCol = styled.div`
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+`;
+
+export const ContainerInfoSub = styled.div`
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2%;
+  @media (min-width: 900px) and (max-width: 12000px) {
+    flex-direction: row;
+  }
+
+  @media (min-width: 320px) and (max-width: 950px) {
+    flex-direction: column;
+  }
+`;
+
 export const ContainerCol = styled.div`
   z-index: 1;
   width: 100%;
@@ -86,6 +112,9 @@ export const Button = styled.button`
     transition: all 0.3s ease-out;
     background: #fff;
     background-color: ${({ primary }) => (primary ? '#0467FB' : '#4B59F7')};
+  }
+  @media (min-width: 0px) and (max-width: 768px) {
+    margin-bottom: 10%;
   }
 `;
 

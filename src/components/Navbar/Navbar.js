@@ -85,7 +85,7 @@ function Navbar() {
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
                             <NavLinks to='/mental' onClick={closeMobileMenu}>
-                                Mental
+                                Mental Health
                             </NavLinks>
                         </NavItem>
                     

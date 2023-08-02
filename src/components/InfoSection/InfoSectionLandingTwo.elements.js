@@ -64,11 +64,6 @@ export const TextWrapper = styled.div`
   }
 `;
 
-export const ImgWrapper = styled.div`
-  display: flex;
-  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
-`;
-
 export const TopLine = styled.div`
   color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
   font-size: 18px;
@@ -78,6 +73,11 @@ export const TopLine = styled.div`
   margin-bottom: 16px;
 `;
 
+export const ImgWrapper = styled.div`
+  display: flex;
+  justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+`;
+
 export const Img = styled.img`
   margin: auto;
   padding-right: 0;
@@ -85,6 +85,53 @@ export const Img = styled.img`
   max-width: 45%;
   vertical-align: middle;
   display: inline-block;
+`;
+
+export const MentalImg = styled.img`
+margin: auto;
+padding-right: 0;
+border: 0;
+max-width: 65%;
+vertical-align: middle;
+display: inline-block;
+border: 2px solid black; /* Border around the image with a thickness of 4px and a black color */
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5); /* Strong shadow effect */
+@media (min-width: 0px) and (max-width: 768px) {
+  max-width: 100%;
+}
+
+`;
+
+export const PhysicalImg = styled.img`
+margin: auto;
+padding-right: 0;
+border: 0;
+max-width: 65%;
+vertical-align: middle;
+display: inline-block;
+border: 2px solid black; /* Border around the image with a thickness of 4px and a black color */
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5); /* Strong shadow effect */
+@media (min-width: 0px) and (max-width: 768px) {
+  max-width: 100%;
+  margin-bottom: 5%;
+}
+
+`;
+
+
+export const WellbeingImg = styled.img`
+margin: auto;
+padding-right: 0;
+border: 0;
+max-width: 65%;
+vertical-align: middle;
+display: inline-block;
+border: 2px solid black; /* Border around the image with a thickness of 4px and a black color */
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5); /* Strong shadow effect */
+@media (min-width: 0px) and (max-width: 768px) {
+  max-width: 100%;
+}
+
 `;
 
 export const ImgIcon = styled.img`
@@ -129,24 +176,45 @@ export const Subtitle = styled.p`
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 `;
 
+export const SubtitleInfo = styled.p`
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 7%;
+  font-size: 26px;
+  width: 70%;
+  color: #1c2237;
+  @media (min-width: 0px) and (max-width: 768px) {
+    width: 90%;
+    font-size: 22px;
+  }
+`;
+
+export const AutoDiv = styled.div`
+  margin: auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8%;
+  margin-top: 1%;
+`
+
 export const DivWithShadow = styled.div`
   margin: auto;
   padding: 20px;
   background-color: white;
-  margin-bottom: 8%;
+  margin-bottom: 4%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
   text-align: center;
   border-radius: 30px;
-  
-  
   background: rgb(237,237,237);
   background: linear-gradient(180deg, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 25%);
   @media (min-width: 1290px) and (max-width: 12000px) {
-    height: 55vh;
-    width: 30vw;
+    height: fit-content;
+    width: 20vw;
   }
   @media (min-width: 950px) and (max-width: 1290px) {
-    height: 60vh;
+    height: fit-content;
     width: 30vw;
   }
   @media (min-width: 0px) and (max-width: 950px) {
