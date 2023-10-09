@@ -1,16 +1,16 @@
 import React from 'react';
 import './HealthResilience.css';
-import BookIcon from './images/BookIcon.png'
-import FactIcon from './images/FactIcon.png'
-import QuestionIcon from './images/QuestionIcon.png'
-import HeartIcon from './images/HeartIcon.png'
-import SearchIcon from './images/SearchIcon.png'
-import VideoIcon from './images/VideoIcon.png'
-import PodcastIcon from './images/PodcastIcon.png'
-import ListIcon from './images/ListIcon.png'
-import AppIcon from './images/AppIcon.png'
-import WebsiteIcon from './images/WebsiteIcon.png'
-import FullBanner from './images/FullBanner.PNG'
+import BookIcon from '../images/BookIcon.png'
+import FactIcon from '../images/FactIcon.png'
+import QuestionIcon from '../images/QuestionIcon.png'
+import HeartIcon from '../images/HeartIcon.png'
+import SearchIcon from '../images/SearchIcon.png'
+import VideoIcon from '../images/VideoIcon.png'
+import PodcastIcon from '../images/PodcastIcon.png'
+import ListIcon from '../images/ListIcon.png'
+import AppIcon from '../images/AppIcon.png'
+import WebsiteIcon from '../images/WebsiteIcon.png'
+import FullBanner from '../images/FullBanner.PNG'
 
 function HealthResilience() {
   return (
