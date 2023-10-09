@@ -1,6 +1,8 @@
 import React from 'react';
 import './Mental.css';
 import banner from "../../images/health-banner.jpg"
+import { Link } from 'react-router-dom'
+
 function Mental() {
   return (
     <div className="container">
@@ -27,7 +29,9 @@ function Mental() {
 
           <div className="section-block">
             <p>Strategies to manage pain and injury</p>
-            <button className="section-block-button-one">Click Here</button>
+            <Link to='/pain-injury'>
+              <button className="section-block-button-one">Click Here</button>
+            </Link>
           </div>
         </div>
 

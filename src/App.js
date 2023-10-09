@@ -8,6 +8,7 @@ import Phsyical from './pages/Physical/Physical';
 import Wellbeing from './pages/Wellbeing/Wellbeing';
 import ScrollToTop from './components/ScrollToTop';
 import HealthResilience from './components/HealthSub/Wellbeing/HealthResilience.js';
+import PainInjury from './components/HealthSub/Health/PainInjury';
 function App() {
   return (
     
@@ -21,6 +22,8 @@ function App() {
             <Route path='/professional-practice' component={Phsyical} />
             <Route path='/wellbeing' component={Wellbeing} />
             <Route path='/health-resilience' component={HealthResilience} />
+            <Route path='/pain-injury' component={PainInjury} />
+
           </Switch>
           <Footer />
       </Router>
