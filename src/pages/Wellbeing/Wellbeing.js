@@ -1,6 +1,7 @@
 import React from 'react';
 import './Wellbeing.css';
 import banner from "../../images/wellbeing-banner.jpg"
+import { Link } from 'react-router-dom'
 
 function Wellbeing() {
   return (
@@ -22,31 +23,27 @@ function Wellbeing() {
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Mindfulness and meditation practice for healthcare professionals</p>
+            <p>Positive workplace culture and fostering wellbeing</p>
             <button className="section-block-button-two">Click Here</button>
           </div>
 
           <div className="section-block">
-            <p>Strategies for incorporating self-care into a busy caregiving schedule</p>
-            <button className="section-block-button-one">Click Here</button>
+            <p>Emotional resilience and coping mechanisms for health caregivers</p>
+            <Link to='/health-resilience'>
+              <button className="section-block-button-one">Click Here</button>
+            </Link>
           </div>
         </div>
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Positive workplace culture and fostering well-being among health caregivers</p>
+            <p>Self Care tips for maintenance of health </p>
             <button className="section-block-button-one">Click Here</button>
           </div>
 
-          <div className="section-block">
-            <p>Explore different types of self-care activites (e.g., exercise, hobbies, relaxation techniques)</p>
-            <button className="section-block-button-two">Click Here</button>
-          </div>
-        </div>
-        <div className="column-inner">
           <div className="section-block">
             <p>Reach out, share expereinces, and connect with others on our peer support forum</p>
-            <button className="section-block-button-one">Click Here</button>
+            <button className="section-block-button-two">Click Here</button>
           </div>
         </div>
       </div>

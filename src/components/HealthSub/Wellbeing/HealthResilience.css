@@ -1,0 +1,277 @@
+.health-resilience-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .div-one {
+    background-color: #003C6B;
+    display: flex;
+    flex-direction: column;
+    justify-content: left; /* Change 'center' to 'left' */
+    align-items: left; /* Change 'center' to 'left' */
+    padding: 12%;
+  }
+  
+  .top-text {
+    color: white;
+    font-weight: bolder;
+    font-size: 44px;
+    text-align: left; /* Add text-align left to align text on the left */
+    margin-left: 15%; /* Add a left margin of 15% */
+  }
+  @media (max-width: 767px) {
+    .top-text {
+      font-size: 34px; /* 50% of the original font size */
+    }
+  }
+  
+  
+  .bottom-text {
+    color: white;
+    font-size: 30px;
+    text-align: left; /* Add text-align left to align text on the left */
+    margin-left: 15%; /* Add a left margin of 15% */
+  }
+  @media (max-width: 767px) {
+    .bottom-text {
+      font-size: 20px; /* 50% of the original font size */
+    }
+  }
+  
+  .div-two {
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+    background-color: #D2EEFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    margin-right: 5%;
+
+  }
+  .flex-row {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    gap: 7%;
+  }
+
+  .flex-row-left-margin {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 20%;
+  }
+  @media (max-width: 767px) {
+    .flex-row-left-margin {
+      margin-left: 8%;
+    }
+  }
+  
+  
+  img {
+    /* Add image styles here */
+  }
+  
+  .black-text {
+    color: black;
+    width: 60%;
+    font-size: 28px;
+  }
+  @media (max-width: 767px) {
+    .black-text {
+      font-size: 20px; /* 50% of the original font size */
+    }
+  }
+  
+
+  .black-text-title {
+    color: black;
+    width: 80%;
+    font-size: 46px;
+    font-weight: bold;
+  }
+  @media (max-width: 767px) {
+    .black-text-title {
+      font-size: 36px; /* 50% of the original font size */
+    }
+  }
+
+  .black-text-sub {
+    color: black;
+    width: 80%;
+    font-size: 30px;
+  }
+    /* Media query for mobile phones */
+  @media (max-width: 767px) {
+    .black-text-sub {
+      font-size: 22px; /* 50% of the original font size */
+    }
+  }
+  
+  .normal-div {
+    /* Add styles for normal div */
+    padding-top: 2%;
+  }
+  
+  .div-three {
+    background-color: #003C6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+  }
+  
+  .white-text-large {
+    color: white;
+    font-size: 36px;
+    width: 93%;
+  }
+  /* Media query for mobile phones */
+  @media (max-width: 767px) {
+    .white-text-large {
+      font-size: 22px; /* 50% of the original font size */
+    }
+  }
+  
+  .div-four {
+    /* Add styles for div four with the full-width image */
+    max-height: 70vh;
+  }
+  
+  .div-five {
+    background-color: #D2EEFF;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-column {
+    /* Add styles for div five containing two flex rows */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .div-six {
+    background-color: #7AC9FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .full-width {
+    width: 90%;
+    padding: 4%;
+  }
+  
+  .black-text-left {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 3%;
+    font-weight: bold;
+  }
+
+  .black-text-video {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 4%;
+  }
+
+  .black-text-url {
+    color: black;
+    font-size: 26px;
+    margin-bottom: 3%;
+  }
+
+  .white-text-video {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 4%;
+  }
+
+  .white-text-url {
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    margin-bottom: 3%;
+  }
+  @media (max-width: 767px) {
+    .white-text-url {
+      font-size: 20px; /* 50% of the original font size */
+    }
+  }
+
+  .white-text-title {
+    color: rgb(255, 255, 255);
+    width: 80%;
+    font-size: 46px;
+    font-weight: bold;
+  }
+  @media (max-width: 767px) {
+    .white-text-title {
+      font-size: 26px; /* 50% of the original font size */
+    }
+  }
+  
+  .div-seven {
+    background-color: #003C6B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+  
+  .white-big-text {
+    color: white;
+    font-size: 36px;
+  }
+  
+  .flex-column-mobile {
+    /* Add styles for flex column on mobile devices */
+    background-color: #0062ad;
+    border-radius: 10%;
+    padding: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .div-eight {
+    background-color: #98c4df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-nine {
+    background-color: #7AC9FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-ten {
+    background-color: #003C6B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .div-eleven {
+    background-color: #156CAD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

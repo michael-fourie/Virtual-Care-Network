@@ -1,6 +1,6 @@
 import React from 'react';
 import './Physical.css';
-import banner from "../../images/physical-banner.jpg"
+import banner from "../../images/professional-practice-banner.jpg"
 
 function Phsyical() {
   return (

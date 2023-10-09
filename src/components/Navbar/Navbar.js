@@ -84,21 +84,20 @@ function Navbar() {
                     
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
-                            <NavLinks to='/mental' onClick={closeMobileMenu}>
-                                Mental Health
-                            </NavLinks>
-                        </NavItem>
-                    
-                    
-                        <NavItem onClick={handleProductsClick} productsClick={productsClick}>
-                            <NavLinks to='/physical' onClick={closeMobileMenu}>
-                                Physical
+                            <NavLinks to='/health' onClick={closeMobileMenu}>
+                                Health
                             </NavLinks>
                         </NavItem>
 
                         <NavItem onClick={handleProductsClick} productsClick={productsClick}>
                             <NavLinks to='/wellbeing' onClick={closeMobileMenu}>
                                 Wellbeing
+                            </NavLinks>
+                        </NavItem>
+
+                        <NavItem onClick={handleProductsClick} productsClick={productsClick}>
+                            <NavLinks to='/professional-practice' onClick={closeMobileMenu}>
+                                Professional Practice
                             </NavLinks>
                         </NavItem>
                         

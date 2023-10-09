@@ -7,7 +7,7 @@ import Mental from './pages/Mental/Mental';
 import Phsyical from './pages/Physical/Physical';
 import Wellbeing from './pages/Wellbeing/Wellbeing';
 import ScrollToTop from './components/ScrollToTop';
-
+import HealthResilience from './components/HealthSub/Wellbeing/HealthResilience.js';
 function App() {
   return (
     
@@ -17,9 +17,10 @@ function App() {
           <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='/mental' component={Mental} />
-            <Route path='/physical' component={Phsyical} />
+            <Route path='/health' component={Mental} />
+            <Route path='/professional-practice' component={Phsyical} />
             <Route path='/wellbeing' component={Wellbeing} />
+            <Route path='/health-resilience' component={HealthResilience} />
           </Switch>
           <Footer />
       </Router>

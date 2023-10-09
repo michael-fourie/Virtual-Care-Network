@@ -32,6 +32,29 @@ export const InfoSec = styled.div`
     );
 `
 
+export const HomeInfoSec = styled.div`
+    color: #fff;
+    padding: 160px 0;
+    min-height: 80vh;
+    max-height: 80vh;
+    @media (min-width: 480px) and (max-width: 1200px) {
+      padding: 160px 0;
+    }
+  
+    @media (min-width: 320px) and (max-width: 480px) {
+      padding: 60px 0;
+      min-height: 130vh;
+      max-height: 130vh;
+    }
+    background-image: linear-gradient(
+      135deg,
+      hsl(247deg 80% 29%) 0%,
+      hsl(243deg 40% 53%) 37%,
+      hsl(236deg 56% 71%) 60%,
+      hsl(230deg 87% 85%) 100%
+    );
+`
+
 export const InfoRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;
@@ -106,7 +129,9 @@ export const Img = styled.img`
 export const Heading = styled.h1`
   /* Media query for mobile devices */
   @media (max-width: 767px) {
-    min-height: 280px;
+    min-height: 350px;
+    max-height: 350px;
+}
   }
 
   /* Media query for desktop devices */

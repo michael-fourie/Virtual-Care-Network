@@ -1,5 +1,5 @@
 import React from 'react'
-import {InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img} from './InfoSectionLanding.elements'
+import {HomeInfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img} from './InfoSectionLanding.elements'
 import { Container, Button } from '../../globalStyles'
 import { Link } from 'react-router-dom'
 import { TypeAnimation } from 'react-type-animation';
@@ -22,7 +22,7 @@ import { TypeAnimation } from 'react-type-animation';
 }) => {
     return (
         <>
-            <InfoSec lightBg={lightBg}>
+            <HomeInfoSec lightBg={lightBg}>
                 <Container>
                     <InfoRow imgStart={imgStart}>
                         <InfoColumn>
@@ -32,11 +32,11 @@ import { TypeAnimation } from 'react-type-animation';
                                 <TypeAnimation
                                     sequence={[
                                         // Same String at the start will only be typed once, initially
-                                        'Mental Health',
-                                        2000,
-                                        'Physical Health',
+                                        'Health',
                                         2000,
                                         'Wellbeing',
+                                        2000,
+                                        'Professional Practice',
                                         2000,
                                     ]}
                                     speed={50}
@@ -53,7 +53,7 @@ import { TypeAnimation } from 'react-type-animation';
                         </InfoColumn>
                     </InfoRow>
                 </Container>
-            </InfoSec>
+            </HomeInfoSec>
         </>
     )
 }

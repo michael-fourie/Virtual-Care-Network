@@ -65,7 +65,7 @@ const InfoSectionLandingTwo = ({
                         </ImgWrapper>
                     </ContainerInfoSub>
                     <AutoDiv>
-                        <Link to='/mental'>
+                        <Link to='/health'>
                                 <Button big fontBig primary={primary}>
                                         Mental Health Support
                                 </Button>
@@ -87,7 +87,7 @@ const InfoSectionLandingTwo = ({
                     </ContainerInfoSub>
 
                     <AutoDiv>
-                        <Link to='/physical'>
+                        <Link to='/professional-practice'>
                                 <Button big fontBig primary={primary}>
                                         Physical Support
                                 </Button>

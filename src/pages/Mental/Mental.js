@@ -1,6 +1,6 @@
 import React from 'react';
 import './Mental.css';
-import banner from "../../images/mental-health-banner.jpg"
+import banner from "../../images/health-banner.jpg"
 function Mental() {
   return (
     <div className="container">
@@ -21,31 +21,25 @@ function Mental() {
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Recognizing and addressing signs of caregiver depression and anxiety</p>
+            <p>Preventing workplace injury</p>
             <button className="section-block-button-two">Click Here</button>
           </div>
 
           <div className="section-block">
-            <p>Strategies for preventing caregiver fatigue and exhaustion</p>
+            <p>Strategies to manage pain and injury</p>
             <button className="section-block-button-one">Click Here</button>
           </div>
         </div>
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Toolkits for dealing with ethical dilemmas and moral distress in healthcare settings</p>
+            <p>Coping skills to manage stress and prevent caregiver fatigue</p>
             <button className="section-block-button-one">Click Here</button>
           </div>
 
-          <div className="section-block">
-            <p>Emotional resilience and coping mechanisms for healthcare givers</p>
-            <button className="section-block-button-two">Click Here</button>
-          </div>
-        </div>
-        <div className="column-inner">
           <div className="section-block">
             <p>Reach out, share expereinces, and connect with others on our peer support forum</p>
-            <button className="section-block-button-one">Click Here</button>
+            <button className="section-block-button-two">Click Here</button>
           </div>
         </div>
       </div>
