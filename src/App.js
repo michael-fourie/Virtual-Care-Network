@@ -9,6 +9,9 @@ import Wellbeing from './pages/Wellbeing/Wellbeing';
 import ScrollToTop from './components/ScrollToTop';
 import HealthResilience from './components/HealthSub/Wellbeing/HealthResilience.js';
 import PainInjury from './components/HealthSub/Health/PainInjury';
+import SelfCare from './components/HealthSub/Wellbeing/SelfCare';
+
+
 function App() {
   return (
     
@@ -23,7 +26,7 @@ function App() {
             <Route path='/wellbeing' component={Wellbeing} />
             <Route path='/health-resilience' component={HealthResilience} />
             <Route path='/pain-injury' component={PainInjury} />
-
+            <Route path='/self-care' component={SelfCare} />
           </Switch>
           <Footer />
       </Router>

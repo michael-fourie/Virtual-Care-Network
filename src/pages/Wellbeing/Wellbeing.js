@@ -38,9 +38,10 @@ function Wellbeing() {
         <div className="column-inner">
           <div className="section-block">
             <p>Self Care tips for maintenance of health </p>
-            <button className="section-block-button-one">Click Here</button>
-          </div>
-
+            <Link to='/self-care'>
+              <button className="section-block-button-one">Click Here</button>
+            </Link>
+        </div>
           <div className="section-block">
             <p>Reach out, share expereinces, and connect with others on our peer support forum</p>
             <button className="section-block-button-two">Click Here</button>
