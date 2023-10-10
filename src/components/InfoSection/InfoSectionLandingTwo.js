@@ -59,18 +59,18 @@ const InfoSectionLandingTwo = ({
                     </DivWithShadow>
 
                     <ContainerInfoSub>
-                        <SubtitleInfo>The Virtual Care Network has recognized the immense stress and emotional toll experienced by healthcare workers on the frontlines. Healthcare workers can access the VCN services without fear of stigma, ensuring their emotional well-being is prioritized.</SubtitleInfo>
+                        <ContainerInfoCol>
+                            <SubtitleInfo>The Virtual Care Network has recognized the immense stress and emotional toll experienced by healthcare workers on the frontlines. Healthcare workers can access the VCN services without fear of stigma, ensuring their emotional well-being is prioritized.</SubtitleInfo>
+                            <Link to='/health' style={{ margin: 'auto' }}>
+                                    <Button big fontBig primary={primary}>
+                                            Mental Health Support
+                                    </Button>
+                            </Link>
+                        </ContainerInfoCol>
                         <ImgWrapper start={start}>
                             <MentalImg src={mentalimg} alt="Image 1" />
                         </ImgWrapper>
                     </ContainerInfoSub>
-                    <AutoDiv>
-                        <Link to='/health'>
-                                <Button big fontBig primary={primary}>
-                                        Mental Health Support
-                                </Button>
-                        </Link>
-                    </AutoDiv>
                     <DivWithShadow>
                         <ImgWrapper start={start}>
                             <ImgIcon src={two} alt="Image 2" />
@@ -83,17 +83,15 @@ const InfoSectionLandingTwo = ({
                         <ImgWrapper start={start}>
                             <PhysicalImg src={physicalimg} alt="Image 1" />
                         </ImgWrapper>
-                        <SubtitleInfo>By utilizing the Virtual Care Network, healthcare professionals can address their physical health needs effectively, ensuring they stay healthy, resilient, and able to provide optimal care to their patients.</SubtitleInfo>
-                    </ContainerInfoSub>
-
-                    <AutoDiv>
-                        <Link to='/professional-practice'>
+                        <ContainerInfoCol>
+                            <SubtitleInfo>By utilizing the Virtual Care Network, healthcare professionals can address their physical health needs effectively, ensuring they stay healthy, resilient, and able to provide optimal care to their patients.</SubtitleInfo>
+                            <Link to='/professional-practice' style={{ margin: 'auto' }}>
                                 <Button big fontBig primary={primary}>
                                         Physical Support
                                 </Button>
                         </Link>
-                    </AutoDiv>
-                    
+                        </ContainerInfoCol>
+                    </ContainerInfoSub>
                     <DivWithShadow>
                         <ImgWrapper start={start}>
                         <ImgIcon src={three} alt="Image 3" />
@@ -103,19 +101,18 @@ const InfoSectionLandingTwo = ({
                     </DivWithShadow>
 
                     <ContainerInfoSub>
-                        <SubtitleInfo>Healthcare workers can access a variety of support systems tailored to promote their wellbeing, including mental health check-ins, and resources for stress management and self-care. The VCN allows for flexibility in scheduling, allowing healthcare workers to seek support at their convenience, even during irregular hours or busy shifts.</SubtitleInfo>
+                        <ContainerInfoCol>
+                            <SubtitleInfo>Healthcare workers can access a variety of support systems tailored to promote their wellbeing, including mental health check-ins, and resources for stress management and self-care. The VCN allows for flexibility in scheduling, allowing healthcare workers to seek support at their convenience, even during irregular hours or busy shifts.</SubtitleInfo>
+                            <Link to='/wellbeing' style={{ margin: 'auto' }}> 
+                                <Button big fontBig primary={primary} style={{ margin: 'auto' }}>
+                                        Wellbeing Support
+                                </Button>
+                            </Link>
+                        </ContainerInfoCol>
                         <ImgWrapper start={start}>
                             <WellbeingImg src={wellbeingimg} alt="Image 1" />
                         </ImgWrapper>
                     </ContainerInfoSub>
-
-                    <AutoDiv>
-                        <Link to='/wellbeing'>
-                                <Button big fontBig primary={primary}>
-                                        Wellbeing Support
-                                </Button>
-                        </Link>
-                    </AutoDiv>
                 </ContainerInfoCol>
             </InfoSec>
         </>

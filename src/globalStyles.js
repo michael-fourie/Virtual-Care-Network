@@ -51,12 +51,14 @@ export const ContainerInfoCol = styled.div`
 `;
 
 export const ContainerInfoSub = styled.div`
+  
   width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 2%;
+  align-items: center;
+  margin-bottom: 5%;
   @media (min-width: 900px) and (max-width: 12000px) {
     flex-direction: row;
   }

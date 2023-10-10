@@ -16,14 +16,14 @@ function PainInjury() {
   return (
     <div className="health-resilience-container">
       <div className="div-one">
-        <p className="top-text">Building Emotional Resilience : Are you Surviving or Thriving?</p>
-        <p className="bottom-text">“Life is not merely to be alive but to be well “ Marcus Valerius Martial</p>
+        <p className="top-text">Pain and Injury Prevention: Be Kind to Your Body</p>
+        <p className="bottom-text">"Take care of your body. It's the only place you have to live in." — Jim Rohn</p>
       </div>
 
       <div className="div-two">
         <div className="flex-row">
           <img className="icon" src={BookIcon} alt="Your Image" />
-          <p className="black-text-title">What is emotional resilience? </p>
+          <p className="black-text-title">This section will review measures to raise awareness of practices, tools, and resources to help decrease the risk of injury to home healthcare workers.</p>
         </div>
 
         <div className="normal-div">
@@ -32,7 +32,11 @@ function PainInjury() {
       </div>
 
       <div className="div-three">
-        <p className="white-text-large">Home healthcare workers must bravely walk into the houses and apartments of people they don’t know. They must contend with many challenges from families in distress and clients who are unable or unwilling to welcome them. Every day they rely on mental strength and endurance to cope with the demanding, emotionally draining nature of this work. Another threat to home healthcare workers’ well-being is compassion fatigue. Compassion fatigue is when compassion for clients can become eroding and negatively impact home health workers. Without resilience and skills to manage these kinds of stressors, home healthcare workers can get caught in a vicious cycle of burnout and carrying the trauma of what their clients are going through.</p>
+        <p className="white-text-large">Home healthcare workers are at high risk of workplace injury due to the repetitive, physical nature of their work which includes handling patients. As clients become heavier, older, and sicker the risk of injury increases. Since home settings can be unpredictable, home healthcare workers must know their employer's policies, professional practice standards and guidelines, and what their body can safely manage when it comes to handling patients.</p>
+      </div>
+
+      <div className="div-three-alt">
+        <p className="white-text-large">A good understanding of proper body mechanics and correct technique can further reduce injury risk. Learning exercises to strengthen the muscles of the limbs, core, and back can also help the body to better manage the physical demands of home healthcare work. Understanding the multifaceted importance of stretching, and ways to incorporate stretches into daily workplace routines is of further benefit. As is, increasing awareness of measures to protect the body against the impacts of physically demanding work with things such as proper footwear, compression stockings, and car seat pillows.</p>
       </div>
 
       <div className="div-four">
@@ -43,11 +47,11 @@ function PainInjury() {
         <div className="flex-column">
           <div className="flex-row-left-margin">
             <img className="icon" src={FactIcon} alt="Your Image" />
-            <p className="black-text">Fact: Mother Teresa understood caregiver burnout and compassion fatigue. She wrote in her plan to her superiors that her nuns needed to take an entire year off from their duties every 4-5 years to allow them to heal from the effects of their caregiving work.</p>
+            <p className="black-text">Fact: The biomechanical strain on a caregiver who weighs 80 kg, is 186 cm tall, and who is bent 45 degrees forward, lifting a client's legs, weighing 10 kg, at a reaching distance of 30 cm place a whooping 255 kg strain in the lumbar area (weight of a male lion). The act of moving the client&#39;s legs, increases the load to the equivalent of a rhino weighing 765 kg!</p>
           </div>
           <div className="flex-row-left-margin">
             <img className="icon" src={QuestionIcon} alt="Your Image" />
-            <p className="black-text">What are ways to build emotional resilience to better cope? How can you identify, and remedy issues associated with physical and emotionally draining caregiving roles such as burnout and compassion fatigue? Can strategies such as practicing gratitude help build emotional resilience? </p>
+            <p className="black-text">Questions: How can proper body mechanics help decrease the risk of workplace injury when handling clients? Is it true that good body mechanics alone cannot help me if I am lifting beyond what I safely should? What are some stretches and muscle-building exercises I can learn to help prevent injury? What are other ways I can help my body to manage the physical demands of being a home healthcare worker?</p>
           </div>
         </div>
       </div>
@@ -55,20 +59,47 @@ function PainInjury() {
       <div className="div-six">
         <div className="flex-row">
           <img className="icon" src={HeartIcon} alt="Your Image" />
-          <p className="black-text-title ">Here is a Guide of References and Tools to Help! </p>
+          <p className="black-text-title ">The list of links below was compiled to answer those questions.</p>
         </div>
         <div className="full-width">
-          <p className="black-text-left">Magazine Articles and Web Sources</p> 
-
+          <p className="black-text-left">This directory of resources was designed to assist those who work in home healthcare to review ways to protect their bodies and decrease pain.</p> 
           <p className="black-text-left">Psychology Today:</p> 
           <div className='flex-column'>
-            <a className="black-text-url" href="https://www.psychologytoday.com/us/blog/design-your-path/201305/10-traits-emotionally-resilient-people">Part 1: 10 Traits of Emotionally Resilient People</a>
-            <a className="black-text-url" href="https://www.psychologytoday.com/us/blog/design-your-path/201305/25-ways-boost-resilience">Part 2: 25 Ways to Boost Resilience</a> 
-            <a className="black-text-url" href="https://www.nursingworld.org/~4ab553/globalassets/covid19/well-being-initiative_sharegraphic_checklist_-091720a.pdf">After Work Checklist to Decompress</a>
+            <a className="black-text-url" href="https://blogs.cdc.gov/niosh-science-blog/2010/04/16/homehealthcare/">Body Mechanics and Safe Client Handling</a>
+            <a className="black-text-url" href="https://blogs.cdc.gov/niosh-science-blog/2010/04/16/homehealthcare/">Centers for Disease Control and Prevention: Strains, Sprains, and Pains in Home Healthcare: Working in an Uncontrolled Environment</a>
+            <a className="black-text-url" href="https://www.bcchiro.com/wp-content/uploads/2019/06/proper-lifting-web-final.pdf">BC Chiropractic Association : Proper Lifting: Think Twice/Lift Once</a>
+            <a className="black-text-url" href="https://www.worksafebc.com/en/resources/health-safety/hazard-alerts/patient-handling-soaker-pads?lang=en">Work Safe BC: Hazard Alert: Patient Handling /Soaker Pads to Reposition</a>
+            <a className="black-text-url" href="https://rnao.ca/sites/rnao-ca/files/9._The_Body_Mechanic.pdf">Registered Nurse Journal: The Body Mechanic</a>
           </div>
         </div>
+        <div className="full-width">
+          <p className="black-text-left">Stretching:</p> 
+          <div className='flex-column'>
+            <a className="black-text-url" href="https://medium.com/optimal-life/how-stretching-everyday-could-save-your-life-eb57645d3b75">Medium Magazine: How Stretching Could Save Your Life</a>
+            <a className="black-text-url" href="https://cbphysicaltherapy.com/six-stretches-every-healthcare-professional-needs-to-practice/">Physical Therapy Blog: 6 Stretches that Every Health Professional Needs to Practice</a>
+            <a className="black-text-url" href="https://www.safeatworkca.com/siteassets/safety-resource-library/publications/stretches-for-healthcare-workers.pdf">Safe at Work California: Stretches for Healthcare Workers</a>
+          </div>
+        </div>
+        <div className="full-width">
+          <p className="black-text-left">Exercises:</p> 
+          <div className='flex-column'>
+            <a className="black-text-url" href="https://ors.od.nih.gov/sr/dohs/HealthAndWellness/Ergonomics/Pages/exercises.aspx">National Institute of Health: Exercises and Stretches</a>
+            <a className="black-text-url" href="https://nurseslabs.com/fit-nurse-5-types-workout-exercises-nurses-need/">NurseLabs: 5 Types of Workout Exercises Nurses Need To Do</a>
+            <a className="black-text-url" href="https://www.prnhealthservices.com/blog-top-5-strength-training-exercises-for-nurses">PRN Healthcare: Top 5 Strength Training Exercises for Nurses</a>
+          </div>
+        </div>
+        <div className="full-width">
+          <p className="black-text-left">Protective Measures to Decrease Body Pain and Injury:</p> 
+          <div className='flex-column'>
+          <a className="black-text-url" href="https://www.naturalhealthchiropracticpc.com/articles/HealthyLiving_spine.pdf">American Chiropractor Association: Tips for a Healthy Spine</a>
+            <a className="black-text-url" href="https://www.prevention.com/health/a19608765/best-shoes-for-nurses/">Prevention Magazine: 14 Best Shoes for Nurses and Other Workers Who Stand All Day, According to Podiatrists</a>
+            <a className="black-text-url" href="https://www.sleepfoundation.org/sleeping-positions">The Sleep Foundation: What is the Best Sleep Position?</a>
+            <a className="black-text-url" href="https://www.healthcentral.com/condition/back-pain/back-pain-obesity">Health Central: Can Obesity Cause Back Pain?</a>
+            <a className="black-text-url" href="https://www.nytimes.com/wirecutter/reviews/best-ergonomic-seat-cushions/">New York Times: Best Ergonomic Car Seat Cushions</a>
+            <a className="black-text-url" href="https://www.webmd.com/dvt/choose-compression-stockings">Web MD: How to Choose and Use Compression Stockings</a>
+          </div>
       </div>
-
+    </div>
       <div className="div-seven">
         <div className="flex-row">
           <img className="icon" src={SearchIcon} alt="Your Image" />
@@ -76,21 +107,17 @@ function PainInjury() {
         </div>
         <div className="flex-row">
           <div className="flex-column-mobile">
-            <p className="white-text-title">What's your Professional Quality of Life?</p>
-            <p className="white-text">Are you at risk of compassion fatigue and burnout? Take ProQOL’s test to find out:</p>
-            <a className="white-text-url" href="https://survey.alchemer.com/s3/6499999/ProQOL-Health">ProQOL’s Test</a>
+            <p className="white-text-title">American Journal of Nursing</p>
+            <a className="white-text-url" href="https://www.asphp.org/wp-content/uploads/2011/05/When_Is_It_Safe_To_Manually_Lift_A_Patient.pdf">When is it Safe to Move a Patient</a>
           </div>
           <div className="flex-column-mobile">
-            <p className="white-text-title">Supportive Resources</p>
-            <a className="white-text-url" href="https://proqol.org/burnout">Burnout</a>
-            <a className="white-text-url" href="https://proqol.org/compassion-fatigue">Compassion Fatigue</a>
-            <a className="white-text-url" href="https://proqol.org/compassion-satisfaction">Compassion Satisfaction</a>
-            <a className="white-text-url" href="https://proqol.org/boundaries">Boundaries</a>
+            <p className="white-text-title">Occupational Health Clinics for Ontario Workers:</p>
+            <a className="white-text-url" href="http://www.ohcow.on.ca/edit/files/general_handouts/Healthcare%20Workers%20Patient%20Handling.pdf">Patient Handling for Healthcare Workers</a>
           </div>
         </div>
         <div className="flex-column-mobile">
-            <p className="white-text-title">Three Good Things:</p>
-            <a className="white-text-url" href="https://www.unchealthcare.org/app/files/public/f2b5cde9-11bc-4877-98dc-74d70ade47e8/pdf-well-being-AR-3GoodThingsb_Article-Build-Resilience-and-Improve-Well-Being.pdf">A toolkit to improve your outlook to help you be a better caregiver. </a>
+            <p className="white-text-title">BC Worksafe Lift Calculator</p>
+            <a className="white-text-url" href="http://worksafebcmedia.com/misc/calculator/llc/">Assessing the risk associated with lifting and lowering tasks</a>
         </div>
       </div>
 
@@ -100,14 +127,14 @@ function PainInjury() {
           <p className="black-text-title ">Videos</p>
         </div>
         <div className="full-width">
-          <p className="black-text-video" style={{marginTop: "-4%"}}>How to Manage Compassion Fatigue in Caregiving</p> 
-          <a className="black-text-url" href="https://www.youtube.com/watch?v=7keppA8XRas">Patricia Smith, founder of the Compassion Fatigue Awareness Project, describes how the path to wellness begins with awareness and self-care measures </a>
-          <p className="black-text-video">10 Ways to Build and Develop Resilience</p> 
-          <a className="black-text-url" href="https://www.youtube.com/watch?v=VNCL1glwyOI">Easy-to-follow format to walk you through steps to build the resilience needed to navigate life challenges </a>
-          <p className="black-text-video">How to Make Stress Your Friend </p> 
-          <a className="black-text-url" href="https://www.ted.com/talks/kelly_mcgonigal_how_to_make_stress_your_friend?language=en">Kelly McGonigal, a Stanford University health psychologist, argues that resilience is built by looking at stress differently.</a>        
-          <p className="black-text-video">How to Protect Your Brain from Stress</p> 
-          <a className="black-text-url" href="https://www.youtube.com/watch?v=Nz9eAaXRzGg">Neurobiologist and science journalist Niki Korteweg describes the four most important things you can do to make your brain resilient to stress. </a>
+          <p className="black-text-video" style={{marginTop: "-4%"}}>Dr Huberman of Stanford School of Health</p> 
+          <a className="black-text-url" href="https://hubermanlab.com/improve-flexibility-with-research-supported-stretching-protocols/">Presents a fascinating and evidence based guide on the benefits of stretching</a>
+          <p className="black-text-video">Dr Rangan Chatterjee</p> 
+          <a className="black-text-url" href="https://youtu.be/jtZB95-AVZM">5 minute Kitchen Workout</a>
+          <p className="black-text-video">Margaret Martin, Physical Therapist </p> 
+          <a className="black-text-url" href="https://www.youtube.com/watch?v=rvpC9QkTc3Y">How to do Chair Squat exercises</a>        
+          <p className="black-text-video">National Safety Council</p> 
+          <a className="black-text-url" href="https://www.youtube.com/watch?v=Zd1f7oAmGlk">Ergonomic Stretches at Work</a>
         </div>
       </div>
 
@@ -117,10 +144,14 @@ function PainInjury() {
           <p className="black-text-title ">Podcasts</p>
         </div>
         <div className="full-width">
-          <p className="black-text-video" style={{marginTop: "-4%"}}>Highway to Well</p> 
-          <a className="black-text-url" href="https://music.amazon.com/podcasts/24cd33cd-e8b0-4f66-b345-9530a1330784/highway-to-well-with-derek-bell?ref=dm_sh_tdnL6Vg0Nd4ma6xSuKAdWUOpY0">American Nurses Association Foundation Gratitude Project: Stories about gratitude to build resiliency and optimism, and how to navigate the challenges of life</a>
-          <p className="black-text-video">A Nursing State of Min</p> 
-          <a className="black-text-url" href="https://www.aorn.org/about-aorn/aorn-newsroom/ana-podcast">American OR Nurses</a>
+          <p className="black-text-video" style={{marginTop: "-4%"}}>Alberta Health</p> 
+          <a className="black-text-url" href="https://www.albertahealthservices.ca/Blogs/podcasts/238.aspx">Preventing Patient Handling Injuries</a>
+          <p className="black-text-video">Health and Safety Magazine</p> 
+          <a className="black-text-url" href="https://www.safetyandhealthmagazine.com/articles/19526-welcome-to-the-show">On the Safe Side</a>
+          <p className="black-text-video">The Ultimate Health Podcast</p> 
+          <a className="black-text-url" href="https://ultimatehealthpodcast.com">With Dr. Jesse Chappus</a>
+          <p className="black-text-video">Found my Fitness</p> 
+          <a className="black-text-url" href="https://www.foundmyfitness.com/">With Dr Rhonda Patrick</a>
         </div>
       </div>
 
@@ -130,10 +161,10 @@ function PainInjury() {
           <p className="white-text-title ">Professional Standards and Guidelines </p>
         </div>
         <div className="full-width">
-          <p className="white-text-video" style={{marginTop: "-4%"}}>College of Nurses of Ontario</p> 
-          <a className="white-text-url" href="https://www.cno.org/globalassets/4-learnaboutstandardsandguidelines/prac/learn/sap/self-care-fact-sheet-en.pdf">Your health can affect the care you provide to your patients</a>
-          <p className="white-text-video">The Registered Nurses Association of Ontario</p> 
-          <a className="white-text-url" href="https://rnao.ca/sites/rnao-ca/files/Preventing_and_Mitigating_Nurse_Fatigue_in_Health_Care.pdf">Preventing and Mitigating Nurse Fatigue in Health</a>
+          <p className="white-text-video" style={{marginTop: "-4%"}}>The National Institute for Occupational Health and Safety</p> 
+          <a className="white-text-url" href="https://www.cdc.gov/niosh/topics/safepatient/default.html">Safe Patient Handling and Mobility</a>
+          <p className="white-text-video">Occupational Safety and Health Administration</p> 
+          <a className="white-text-url" href="https://www.osha.gov/healthcare/safe-patient-handling">Safe Patient Handlng</a>
         </div>
       </div>
 
@@ -143,10 +174,10 @@ function PainInjury() {
           <p className="white-text-title ">Support Organizations</p>
         </div>
         <div className="full-width">
-          <p className="white-text-video" style={{marginTop: "-4%"}}>The Compassion Fatigue Awareness Network</p> 
-          <a className="white-text-url" href="https://compassionfatigue.org/about.html">Fatigue Support Network</a>
-          <p className="white-text-video">American Nurses Association</p> 
-          <a className="white-text-url" href="https://www.nursingworld.org/practice-policy/work-environment/health-safety/disaster-preparedness/coronavirus/what-you-need-to-know/the-well-being-initiative/">The Well-Being Initiative </a>
+          <p className="white-text-video" style={{marginTop: "-4%"}}>Community Care Access Centre</p> 
+          <a className="white-text-url" href="https://communicare.ca/wp-content/uploads/2020/12/CCAC-Lift-Transfer-Manual-English_Final-1.pdf">Manual For Lifts and Transfers (Safe Moving and Handling Practices)</a>
+          <p className="white-text-video">Hawaii Occupational Health and Safety</p> 
+          <a className="white-text-url" href="https://labor.hawaii.gov/hiosh/files/2022/09/Lifting-and-Moving-Patients-Safely.pdf">Lifting and Moving Patients Safely </a>
         </div>
       </div>
        
@@ -157,14 +188,20 @@ function PainInjury() {
           <p className="black-text-title ">Apps & Technology</p>
         </div>
         <div className="full-width">
-          <p className="black-text-video" style={{marginTop: "-4%"}}>Tools for Healthcare Professionals to Build their Mental Health Resiliency</p> 
-          <a className="black-text-url" href="https://www.getmedstaffing.com/blog/tools-healthcare-professionals-build-their-mental-health-resiliency">GetMedStaffing Tools </a>
-          <p className="black-text-video">15 Top Apps for Resilience, Mental Health Promotion & Suicide Prevention</p> 
-          <a className="black-text-url" href="https://www.sallyspencerthomas.com/dr-sally-speaks-blog/2017/10/8/15-top-apps-for-resilience-mental-health-promotion-suicide-prevention">Sally Spencer Thomas's List of Resources</a>
-        </div>
-      </div>
+          <p className="black-text-video" style={{marginTop: "-4%"}}>US Department of Veterans Affairs</p> 
+          <a className="black-text-url" href="https://mobile.va.gov/app/safe-patient-handling">Safe Patient Handling</a>
 
+          <p className="black-text-video">Strengthen Your Back and Relieve Pain</p> 
+          <a className="black-text-url" href="https://appadvice.com/apps/back-muscle-exercise-apps">List of Focused Fitness Apps</a>
+          
+          <p className="black-text-video" style={{marginTop: "-4%"}}>VeryWell Fit</p> 
+          <a className="black-text-url" href="https://www.verywellfit.com/best-stretching-apps-5096980">The 5 Best Stretching Apps of 2023</a>
+
+          <p className="black-text-video">Heart Matters Magazine</p> 
+          <a className="black-text-url" href="https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/8-free-fitness-apps">7 Free Fitness Apps</a>
+        </div>
     </div>
+  </div>
   );
 }
 
