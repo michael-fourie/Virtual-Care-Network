@@ -137,6 +137,12 @@
     color: white;
     border: none;
     font-size: 18px;
+    margin-bottom: 10%;
+  }
+  .section-block-button-two:hover {
+    background-color: #2a3f75; /* Darker shade on hover */
+    transform: scale(0.95); /* Slightly smaller size on hover (95% of the original size) */
+    cursor: pointer;
   }
 
   .text-block {

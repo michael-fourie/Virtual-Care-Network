@@ -23,8 +23,10 @@ function Wellbeing() {
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Positive workplace culture and fostering wellbeing</p>
-            <button className="section-block-button-two">Click Here</button>
+            <p>Self Care tips for a good night sleep</p>
+            <Link to='/self-care-sleep'>
+              <button className="section-block-button-two">Click Here</button>
+            </Link>
           </div>
 
           <div className="section-block">
@@ -37,16 +39,40 @@ function Wellbeing() {
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Self Care tips for maintenance of health </p>
-            <Link to='/self-care'>
+            <p>Self Care tips for Fasting </p>
+            <Link to='/self-care-fasting'>
               <button className="section-block-button-one">Click Here</button>
             </Link>
-        </div>
+          </div>
+
           <div className="section-block">
+            <p>Fast, Easy, Healthy Eating Tips and Recipes</p>
+            <Link to='/self-care-recipe'>
+              <button className="section-block-button-two">Click Here</button>
+            </Link>
+          </div>
+          
+        </div>
+        <div className="column-inner">
+          <div className="section-block">
+            <p>Self Care tips for Hydration</p>
+            <Link to='/self-care-hydration'>
+              <button className="section-block-button-two">Click Here</button>
+            </Link>
+          </div>
+
+          <div className="section-block">
+            <p>Microbiome Gut Health</p>
+            <Link to='/self-care-gut'>
+              <button className="section-block-button-one">Click Here</button>
+            </Link>
+          </div>
+          
+        </div>
+        <div className="section-block">
             <p>Reach out, share expereinces, and connect with others on our peer support forum</p>
             <button className="section-block-button-two">Click Here</button>
           </div>
-        </div>
       </div>
     </div>
   );

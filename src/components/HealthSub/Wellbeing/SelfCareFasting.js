@@ -14,7 +14,7 @@ import FastingIcon from '../images/FastingIcon.png'
 import BloodIcon from '../images/BloodIcon.png'
 import FullBanner from '../images/FullBanner.PNG'
 
-function SelfCare() {
+function SelfCareFasting() {
   return (
     <div className="health-resilience-container">
       <div className="div-one">
@@ -216,7 +216,7 @@ function SelfCare() {
           <p className="black-text-video">Strengthen Your Back and Relieve Pain</p> 
           <a className="black-text-url" href="https://appadvice.com/apps/back-muscle-exercise-apps">List of Focused Fitness Apps</a>
           
-          <p className="black-text-video" style={{marginTop: "-4%"}}>VeryWell Fit</p> 
+          <p className="black-text-video" >VeryWell Fit</p> 
           <a className="black-text-url" href="https://www.verywellfit.com/best-stretching-apps-5096980">The 5 Best Stretching Apps of 2023</a>
 
           <p className="black-text-video">Heart Matters Magazine</p> 
@@ -227,4 +227,4 @@ function SelfCare() {
   );
 }
 
-export default SelfCare;
+export default SelfCareFasting;

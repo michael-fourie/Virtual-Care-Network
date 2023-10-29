@@ -1,7 +1,7 @@
 import React from 'react';
 import './Physical.css';
 import banner from "../../images/professional-practice-banner.jpg"
-
+import { Link } from 'react-router-dom/cjs/react-router-dom';
 function Phsyical() {
   return (
     <div className="container">
@@ -22,31 +22,31 @@ function Phsyical() {
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Techniques for managing physical pain and discomfort in caregiving roles</p>
-            <button className="section-block-button-two">Click Here</button>
+            <p>Improving communication skills for effective communication</p>
+            <Link to='/communication'>
+              <button className="section-block-button-two">Click Here</button>
+            </Link>
           </div>
 
           <div className="section-block">
-            <p>Preventing caregiver-related injuries and promoting safe caregiving practices</p>
-            <button className="section-block-button-one">Click Here</button>
+            <p>Managing the Ethical Dilemma of Elder Abuse</p>
+            <Link to='/morals'>
+              <button className="section-block-button-one">Click Here</button>
+            </Link>
           </div>
         </div>
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Strategies for managing physical exhaustion and promoting self-renewal</p>
-            <button className="section-block-button-one">Click Here</button>
+            <p>Managing the Emotional Distress and Grief over Death and Dying</p>
+            <Link to='/manage-distress'>
+              <button className="section-block-button-one">Click Here</button>
+            </Link>
           </div>
 
-          <div className="section-block">
-            <p>The role of physical activity in stress reduction and managing caregiver fatigue</p>
-            <button className="section-block-button-two">Click Here</button>
-          </div>
-        </div>
-        <div className="column-inner">
           <div className="section-block">
             <p>Reach out, share expereinces, and connect with others on our peer support forum</p>
-            <button className="section-block-button-one">Click Here</button>
+            <button className="section-block-button-two">Click Here</button>
           </div>
         </div>
       </div>

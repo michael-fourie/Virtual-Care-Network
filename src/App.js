@@ -9,7 +9,18 @@ import Wellbeing from './pages/Wellbeing/Wellbeing';
 import ScrollToTop from './components/ScrollToTop';
 import HealthResilience from './components/HealthSub/Wellbeing/HealthResilience.js';
 import PainInjury from './components/HealthSub/Health/PainInjury';
-import SelfCare from './components/HealthSub/Wellbeing/SelfCare';
+import Relaxation from './components/HealthSub/Health/Relaxation';
+import SelfCareFasting from './components/HealthSub/Wellbeing/SelfCareFasting';
+import SelfCareRecipe from './components/HealthSub/Wellbeing/SelfCareRecipe';
+import SelfCareHydration from './components/HealthSub/Wellbeing/SelfCareHydration';
+import SelfCareGut from './components/HealthSub/Wellbeing/SelfCareGut.js';
+import SelfCareSleep from './components/HealthSub/Wellbeing/SelfCareSleep.js';
+import Communication from './components/HealthSub/Practice/Communication.js';
+import Moral from './components/HealthSub/Practice/Moral.js';
+import Death from './components/HealthSub/Practice/Death.js';
+
+
+
 
 
 function App() {
@@ -26,7 +37,16 @@ function App() {
             <Route path='/wellbeing' component={Wellbeing} />
             <Route path='/health-resilience' component={HealthResilience} />
             <Route path='/pain-injury' component={PainInjury} />
-            <Route path='/self-care' component={SelfCare} />
+            <Route path='/relaxation' component={Relaxation} />
+            <Route path='/self-care-fasting' component={SelfCareFasting} />
+            <Route path='/self-care-recipe' component={SelfCareRecipe} />
+            <Route path='/self-care-hydration' component={SelfCareHydration} />
+            <Route path='/self-care-gut' component={SelfCareGut} />
+            <Route path='/self-care-sleep' component={SelfCareSleep} />
+            <Route path='/communication' component={Communication} />
+            <Route path='/morals' component={Moral} />
+            <Route path='/manage-distress' component={Death} />
+
           </Switch>
           <Footer />
       </Router>

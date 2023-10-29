@@ -23,8 +23,10 @@ function Mental() {
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Preventing workplace injury</p>
-            <button className="section-block-button-two">Click Here</button>
+            <p>Relaxation Techniques for Meditation, Tapping, and Breathing</p>
+            <Link to='/relaxation'>
+              <button className="section-block-button-two">Click Here</button>
+            </Link>
           </div>
 
           <div className="section-block">
@@ -36,10 +38,7 @@ function Mental() {
         </div>
 
         <div className="column-inner">
-          <div className="section-block">
-            <p>Coping skills to manage stress and prevent caregiver fatigue</p>
-            <button className="section-block-button-one">Click Here</button>
-          </div>
+
 
           <div className="section-block">
             <p>Reach out, share expereinces, and connect with others on our peer support forum</p>
