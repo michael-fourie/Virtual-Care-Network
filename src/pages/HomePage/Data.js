@@ -68,7 +68,7 @@ export const homeObjOne = {
   };
 
   export const currentEvents = {
-    name: 'AUGUST 25 - Webinar Info Session (Zoom)',
+    name: 'TBD - Webinar Info Session (Zoom)',
     info: 'Join the VCN team and discuss the importance of ensuring healthcare workers are provided with the best support.',
-    time: '6-7pm EST'
+    time: 'TBD Date'
   }
