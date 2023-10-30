@@ -19,7 +19,6 @@
     font-weight: bolder;
     font-size: 44px;
     text-align: left; /* Add text-align left to align text on the left */
-    margin-left: 15%; /* Add a left margin of 15% */
   }
   @media (max-width: 767px) {
     .top-text {
@@ -32,7 +31,6 @@
     color: white;
     font-size: 30px;
     text-align: left; /* Add text-align left to align text on the left */
-    margin-left: 15%; /* Add a left margin of 15% */
   }
   @media (max-width: 767px) {
     .bottom-text {
@@ -54,17 +52,18 @@
     margin-right: 5%;
 
   }
+  
   .flex-row {
     display: flex;
     align-items: center;
     margin-top: 4%;
     margin-bottom: 4%;
-    gap: 7%;
   }
 
   .flex-row-left-margin {
     display: flex;
     align-items: center;
+    margin: auto;
     margin-top: 4%;
     margin-bottom: 4%;
     margin-left: 20%;
@@ -98,11 +97,7 @@
     font-size: 46px;
     font-weight: bold;
   }
-  @media (max-width: 767px) {
-    .black-text-title {
-      font-size: 36px; /* 50% of the original font size */
-    }
-  }
+
 
   .black-text-sub {
     color: black;
@@ -167,7 +162,6 @@
 
   .full-width {
     width: 90%;
-    padding: 4%;
   }
   
   .black-text-left {
@@ -181,13 +175,23 @@
     color: black;
     font-size: 30px;
     font-weight: bold;
-    margin-top: 4%;
+    margin-top: 6%;
+  }
+  @media (max-width: 767px) {
+    .black-text-video {
+      font-size: 20px; /* 50% of the original font size */
+    }
   }
 
   .black-text-url {
     color: black;
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 3%;
+  }
+  @media (max-width: 767px) {
+    .black-text-url {
+      font-size: 20px; /* 50% of the original font size */
+    }
   }
 
   .white-text-video {
@@ -214,11 +218,7 @@
     font-size: 46px;
     font-weight: bold;
   }
-  @media (max-width: 767px) {
-    .white-text-title {
-      font-size: 26px; /* 50% of the original font size */
-    }
-  }
+
   
   .div-seven {
     background-color: #003C6B;

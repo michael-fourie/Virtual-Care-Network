@@ -1,6 +1,6 @@
 import React from 'react'
 import {WellbeingImg, MentalImg, PhysicalImg, AutoDiv, DivWithShadow, Body, Header, InfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, SubtitleInfo, ImgWrapper, Img, ImgIcon, HorizontalLine} from './InfoSectionLandingTwo.elements'
-import { Container, Button, ContainerCol, ContainerInfoCol, ContainerInfoSub } from '../../globalStyles'
+import { Container, Button, ContainerCol, ContainerInfoCol, ContainerInfoColMB, ContainerInfoSub } from '../../globalStyles'
 import { Link } from 'react-router-dom'
 import one from "../../images/iconOne.png"
 import two from "../../images/iconTwo.png"
@@ -59,17 +59,19 @@ const InfoSectionLandingTwo = ({
                     </DivWithShadow>
 
                     <ContainerInfoSub>
-                        <ContainerInfoCol>
+                        <ImgWrapper start={start}>
+                            <MentalImg src={mentalimg} style={{ marginBottom: '10%' }}alt="Image 1" />
+                        </ImgWrapper>
+
+                        <ContainerInfoColMB>
                             <SubtitleInfo>The Virtual Care Network has recognized the immense stress and emotional toll experienced by healthcare workers on the frontlines. Healthcare workers can access the VCN services without fear of stigma, ensuring their emotional well-being is prioritized.</SubtitleInfo>
                             <Link to='/health' style={{ margin: 'auto' }}>
                                     <Button big fontBig primary={primary}>
                                             Mental Health Support
                                     </Button>
                             </Link>
-                        </ContainerInfoCol>
-                        <ImgWrapper start={start}>
-                            <MentalImg src={mentalimg} alt="Image 1" />
-                        </ImgWrapper>
+                        </ContainerInfoColMB>
+
                     </ContainerInfoSub>
                     <DivWithShadow>
                         <ImgWrapper start={start}>
@@ -102,6 +104,9 @@ const InfoSectionLandingTwo = ({
 
                     <ContainerInfoSub>
                         <ContainerInfoCol>
+                        <ImgWrapper start={start}>
+                            <WellbeingImg src={wellbeingimg} alt="Image 1" />
+                        </ImgWrapper>
                             <SubtitleInfo>Healthcare workers can access a variety of support systems tailored to promote their wellbeing, including mental health check-ins, and resources for stress management and self-care. The VCN allows for flexibility in scheduling, allowing healthcare workers to seek support at their convenience, even during irregular hours or busy shifts.</SubtitleInfo>
                             <Link to='/wellbeing' style={{ margin: 'auto' }}> 
                                 <Button big fontBig primary={primary} style={{ margin: 'auto' }}>
@@ -109,9 +114,7 @@ const InfoSectionLandingTwo = ({
                                 </Button>
                             </Link>
                         </ContainerInfoCol>
-                        <ImgWrapper start={start}>
-                            <WellbeingImg src={wellbeingimg} alt="Image 1" />
-                        </ImgWrapper>
+                        
                     </ContainerInfoSub>
                 </ContainerInfoCol>
             </InfoSec>

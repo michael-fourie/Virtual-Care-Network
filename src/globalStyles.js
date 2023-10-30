@@ -50,6 +50,16 @@ export const ContainerInfoCol = styled.div`
   gap: 5%;
 `;
 
+export const ContainerInfoColMB = styled.div`
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5%;
+  margin-bottom: 8%;
+`;
+
 export const ContainerInfoSub = styled.div`
   
   width: 80%;

@@ -30,11 +30,31 @@
       flex-direction: column;
     }
   }
-  .centered-text {
+
+
+  .centered-text  {
     text-align: center;
     font-size: 48px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bolder;
+    
+    /* Make the text a dark gray color for better readability */
+    color: #333;
+    
+    /* Add a subtle text shadow for depth */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    
+    /* Apply some letter spacing for a modern touch */
+    letter-spacing: 1px;
+    
+    /* Add a smooth transition for hover effects */
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+  
+  /* On hover, you can change the text color and text-shadow */
+  .black-text:hover {
+    color: #555; /* Slightly lighter on hover */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   .info-text {

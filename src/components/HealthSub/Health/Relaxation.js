@@ -10,7 +10,10 @@ import PodcastIcon from '../images/PodcastIcon.png'
 import ListIcon from '../images/ListIcon.png'
 import AppIcon from '../images/AppIcon.png'
 import WebsiteIcon from '../images/WebsiteIcon.png'
-import FullBanner from '../images/FullBanner.PNG'
+import FullBanner from '../images/relaxation.jpg'
+import ScienceIcon from '../images/newspaper.png'
+import BooksIcon from '../images/book.png'
+
 
 function Relaxation() {
   return (
@@ -24,16 +27,16 @@ those around you. Tim Ferriss</p>
       </div>
 
       <div className="div-two">
-        <div className="flex-row">
+        <div className="flex-row-relax">
           <img className="icon" src={BookIcon} alt="Your Image" />
-          <p className="black-text-title">Stress, burnout, insomnia, and depression are among the serious threats faced by
-those who work in home healthcare.Overcoming these threats takes more than telling you to
-take a deep breath. However, adopting attainable, evidence based, relaxation techniques is a
-good place to start to help combat these threats and protect overall health and wellbeing.</p>
+          <p className="black-text-title-relax">Stress, burnout, insomnia, and depression are among the serious threats faced by
+those who work in home healthcare.</p>
         </div>
 
         <div className="normal-div">
-          <p className="black-text-sub">Although there are a range of relaxation techniques, breathing exercises, tapping, and
+          <p className="black-text-sub">Overcoming these threats takes more than telling you to
+take a deep breath. However, adopting attainable, evidence based, relaxation techniques is a
+good place to start to help combat these threats and protect overall health and wellbeing. Although there are a range of relaxation techniques, breathing exercises, tapping, and
 meditation will be the ones explored in this section. These techniques are supported by
 evidence to have numerous physical and psychological benefits. They can be as simple
 
@@ -57,9 +60,9 @@ incorporated into a daily plan.</p>
 
       <div className="div-five">
         <div className="flex-column">
-          <div className="flex-row-left-margin">
+          <div className="flex-row">
             <img className="icon" src={FactIcon} alt="Your Image" />
-            <p className="black-text">Fact: Albert Einstein took a year off school to travel after high school where
+            <p className="black-text-relax">Fact: Albert Einstein took a year off school to travel after high school where
 he found relaxation in nature and developed a life long love of sailing. This is
 thought to have contributed to his creation of some of the world's most impor-
 tant theories. Carlo Rovelli, the founder of loop quantum gravity theory wrote:
@@ -68,10 +71,13 @@ anywhere by not ‘wasting’ time.”</p>
           </div>
           <div className="flex-row-left-margin">
             <img className="icon" src={QuestionIcon} alt="Your Image" />
-            <p className="black-text">Questions: How can I learn more about meditation, tapping, and breathing exercises?
-How do I determine which kind of relaxation technique is best for me? What
+            <p className="black-text-relax">Questions: How can I learn more about meditation, tapping, and breathing exercises?
+ </p>
+            <p className="black-text-relax">How do I determine which kind of relaxation technique is best for me?</p>
+            <p className="black-text-relax">What
 are some easy ways that I can integrate mediation/tapping and breath work
-into my busy schedule? Can I overcome my intolerance of being still for
+into my busy schedule?</p>
+            <p className="black-text-relax"> Can I overcome my intolerance of being still for
 extended periods?</p>
           </div>
         </div>
@@ -80,12 +86,12 @@ extended periods?</p>
       <div className="div-six">
         <div className="flex-row">
           <img className="icon" src={HeartIcon} alt="Your Image" />
-          <p className="black-text-title ">A breakdown of relaxation techniques.</p>
+          <p className="black-text-title ">Breakdown of relaxation techniques.</p>
         </div>
         <div className="full-width">
           <p className="black-text-left">Meditation</p> 
           <div className='flex-column'>
-            <p className="black-text-url">Meditation is a set of techniques to train your mind, similar to the way that fitness is an
+            <p className="black-text-block">Meditation is a set of techniques to train your mind, similar to the way that fitness is an
 approach to training your body. These techniques are numerous and include mindful-
 ness, visualization, guided, and mantra meditation. Meditation has proven scientific
 benefits that, among other things, help you to focus, sleep better, increase self-aware-
@@ -95,7 +101,7 @@ ness/ compassion, and bring mental calmness during difficult situations.</p>
         <div className="full-width">
           <p className="black-text-left">Tapping</p> 
           <div className='flex-column'>
-            <p className="black-text-url" href="">Tapping, also referred to as EFT, is a technique that helps manage and release every-
+            <p className="black-text-block" href="">Tapping, also referred to as EFT, is a technique that helps manage and release every-
 day stress. Tapping blends ancient theories of acupuncture with modern psychology
 and follows a systematic pattern of tapping on the endpoints of acupressure meridians.
 All the while, you recite affirmations that acknowledge a physical or emotional problem
@@ -105,7 +111,7 @@ and your bodies ability to overcome it.</p>
         <div className="full-width">
           <p className="black-text-left">Breathing</p> 
           <div className='flex-column'>
-            <p className="black-text-url" href="">Breathing exercises, have multifaceted, scientifically proven benefits to overall wellbe-
+            <p className="black-text-block" href="">Breathing exercises, have multifaceted, scientifically proven benefits to overall wellbe-
 ing. Bringing awareness to the breath helps to calm and disengage from distracting
 thoughts and sensations. They has been shown to help overcome numerous challenges
 such as anxiety, and even pain, as well as increase tissue perfusion and decrease corti-
@@ -143,7 +149,7 @@ ple and can easily be integrated into daily routines.</p>
 
       <div className="div-eleven-alt">
         <div className="flex-row">
-          <img className="icon" src={WebsiteIcon} alt="Your Image" />
+          <img className="icon" src={ScienceIcon} alt="Your Image" />
           <p className="white-text-title ">Scientific Journals</p>
         </div>
         <div className="full-width">
@@ -170,7 +176,7 @@ ple and can easily be integrated into daily routines.</p>
           <img className="icon" src={SearchIcon} alt="Your Image" />
           <p className="white-text-title">ToolKits to Help Get Relaxation Techniques Started</p>
         </div>
-        <div className="flex-row">
+        <div className="flex-row-toolkit">
           <div className="flex-column-mobile">
             <p className="white-text-title">Meditation</p>
             <a className="white-text-url" href="https://www.heart.org/-/media/Healthy-Living-Files/Infographics/Loving-Kindness-Meditation-infographic.pdf?rev=f34027bd73174cd9b0be76cba59571ca">American Heart Association: Loving-Kindness Meditation Infographic PDF</a>
@@ -252,7 +258,7 @@ ple and can easily be integrated into daily routines.</p>
 
       <div className="div-eleven">
         <div className="flex-row">
-          <img className="icon" src={PodcastIcon} alt="Your Image" />
+          <img className="icon" src={BooksIcon} alt="Your Image" />
           <p className="black-text-title ">Books and Manuals</p>
         </div>
         <div className="full-width">
@@ -309,20 +315,20 @@ ple and can easily be integrated into daily routines.</p>
       <div className="div-eleven">
         <div className="flex-row">
           <img className="icon" src={WebsiteIcon} alt="Your Image" />
-          <p className="white-text-title ">Support Organizations</p>
+          <p className="black-text-title ">Support Organizations</p>
         </div>
         <div className="full-width">
-        <p className="white-text-video" style={{ marginTop: "-4%" }}>The Canadian Mental Health Association</p>
-  <a className="white-text-url" href="https://cmha.ca/brochure/mindfulness/">Mental health support agency and resource on relaxation techniques</a>
+        <p className="black-text-video" style={{ marginTop: "-4%" }}>The Canadian Mental Health Association</p>
+  <a className="black-text-url" href="https://cmha.ca/brochure/mindfulness/">Mental health support agency and resource on relaxation techniques</a>
 
-  <p className="white-text-video">Deepak Chopra</p>
-  <a className="white-text-url" href="https://www.deepakchopra.com/articles/">Community: Supportive Articles and resources</a>
+  <p className="black-text-video">Deepak Chopra</p>
+  <a className="black-text-url" href="https://www.deepakchopra.com/articles/">Community: Supportive Articles and resources</a>
 
-  <p className="white-text-video">Berkeley University: Greater Good in Action</p>
-  <a className="white-text-url" href="https://ggia.berkeley.edu/about_us">https://ggia.berkeley.edu/about_us</a>
+  <p className="black-text-video">Berkeley University: Greater Good in Action</p>
+  <a className="black-text-url" href="https://ggia.berkeley.edu/about_us">https://ggia.berkeley.edu/about_us</a>
 
-  <p className="white-text-video">Win Hof Method</p>
-  <a className="white-text-url" href="https://www.wimhofmethod.com/breathing-exercises">Breathing exercises for more advanced breath practitioners</a>
+  <p className="black-text-video">Win Hof Method</p>
+  <a className="black-text-url" href="https://www.wimhofmethod.com/breathing-exercises">Breathing exercises for more advanced breath practitioners</a>
 </div>
       </div>
        

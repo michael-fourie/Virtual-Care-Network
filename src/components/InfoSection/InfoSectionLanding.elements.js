@@ -41,10 +41,15 @@ export const HomeInfoSec = styled.div`
       padding: 160px 0;
     }
   
-    @media (min-width: 320px) and (max-width: 480px) {
+    @media (min-width: 380px) and (max-width: 480px) {
       padding: 60px 0;
       min-height: 130vh;
       max-height: 130vh;
+    }
+    @media (min-width: 300px) and (max-width: 379px) {
+      padding: 60px 0;
+      min-height: 165vh;
+      max-height: 165vh;
     }
     background-image: linear-gradient(
       135deg,
