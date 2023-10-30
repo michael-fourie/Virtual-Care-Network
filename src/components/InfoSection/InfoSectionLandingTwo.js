@@ -94,6 +94,7 @@ const InfoSectionLandingTwo = ({
                         </Link>
                         </ContainerInfoCol>
                     </ContainerInfoSub>
+
                     <DivWithShadow>
                         <ImgWrapper start={start}>
                         <ImgIcon src={three} alt="Image 3" />
@@ -103,10 +104,10 @@ const InfoSectionLandingTwo = ({
                     </DivWithShadow>
 
                     <ContainerInfoSub>
-                        <ContainerInfoCol>
                         <ImgWrapper start={start}>
                             <WellbeingImg src={wellbeingimg} alt="Image 1" />
                         </ImgWrapper>
+                        <ContainerInfoCol>
                             <SubtitleInfo>Healthcare workers can access a variety of support systems tailored to promote their wellbeing, including mental health check-ins, and resources for stress management and self-care. The VCN allows for flexibility in scheduling, allowing healthcare workers to seek support at their convenience, even during irregular hours or busy shifts.</SubtitleInfo>
                             <Link to='/wellbeing' style={{ margin: 'auto' }}> 
                                 <Button big fontBig primary={primary} style={{ margin: 'auto' }}>
