@@ -129,19 +129,25 @@ ple and can easily be integrated into daily routines.</p>
         <div className="full-width">
           <p className="white-text-video" style={{marginTop: "-4%"}}>Meditation:</p> 
           <a className="white-text-url" href="https://www.healthline.com/nutrition/12-benefits-of-meditation">Healthline: 12 Benefits of Meditation</a>
+          <br></br>
           <a className="white-text-url" href="https://www.medicalnewstoday.com/articles/320392">Medical News Today: What is the Best Type of Meditation?</a>
         </div>
         <div className="full-width">
           <p className="white-text-video" style={{marginTop: "-4%"}}>Tapping:</p> 
           <a className="white-text-url" href="https://www.forbes.com/health/mind/eft-tapping/">Forbes Health: EFT Tapping: What you Need to Know</a>
+          <br></br>
           <a className="white-text-url" href="https://neurosciencenews.com/tapping-stress-19837/">Neuroscience News: Feeling Stressed? It’s ‘a Bit Weird, but Tapping Helps – And It’s Easy to Learn</a>
         </div>
         <div className="full-width">
-          <p className="white-text-video" style={{marginTop: "-4%"}}>Breathing Exercises</p> 
+          <p className="white-text-video" style={{marginTop: "-4%"}}>Breathing Exercises:</p> 
           <a className="white-text-url" href="https://www.everydayhealth.com/alternative-health/living-with/ways-practice-breath-focused-meditation/">Everyday Health: A Beginner's Guide to Breath Work Practices</a>
+          <br></br>
           <a className="white-text-url" href="https://positivepsychology.com/breathing-exercises-for-stress-relief/">Positive Psychology: 7 Stress-Relief Breathing Exercises for Calming Your Mind</a>
+          <br></br>
           <a className="white-text-url" href="https://www.scientificamerican.com/article/proper-breathing-brings-better-health/">Scientific American; Proper Breathing Brings Better Health</a>
+          <br></br>
           <a className="white-text-url" href="https://positivepsychology.com/mindful-thinking/">Help to Stay Focused: Positive Psychology Tips to Stop Ruminating</a>
+          <br></br>
           <a className="white-text-url" href="https://www.healthline.com/health/9-ways-to-make-meditation-easier#get-started">Healthline: 9 Ways to Make Meditation Easier</a>
      
         </div>
@@ -155,18 +161,23 @@ ple and can easily be integrated into daily routines.</p>
         <div className="full-width">
           <p className="white-text-video" style={{marginTop: "-4%"}}>Meditation:</p> 
           <a className="white-text-url" href="https://www.sciencedirect.com/science/article/pii/S0897189722000076">The effectiveness of mindfulness-based interventions on the psychological well- being of nurses: A systematic review. Sulosaari et al., (2022).</a>
+          <br></br>
           <a className="white-text-url" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6716566/">Mindfulness to promote nurses' well-being. Susan Penque, (2019).</a>
+          <br></br>
           <a className="white-text-url" href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2796494">Efficacy of Transcendental Meditation to reduce stress among health care work-ers. Joshi et al., (2022).</a>
         </div>
         <div className="full-width">
           <p className="white-text-video" style={{marginTop: "-4%"}}>Tapping:</p> 
           <a className="white-text-url" href="https://pubmed.ncbi.nlm.nih.gov/36438382/">Clinical EFT as an evidence-based practice for the treatment of psychological and physiological conditions: A systematic review. Church et al., (2022).</a>
+          <br></br>
           <a className="white-text-url" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6381429/">Clinical EFT (Emotional Freedom Techniques) improves multiple physiological markers of health. Bach et al., (2019).</a>
         </div>
         <div className="full-width">
           <p className="white-text-video" style={{marginTop: "-4%"}}>Breathing Exercises</p> 
           <a className="white-text-url" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6137615/">How breath-control can change your life: A systematic review on psycho-physio-logical correlates of slow breathing. Zaccarro et al., (2018).</a>
+          <br></br>
           <a className="white-text-url" href="https://pubmed.ncbi.nlm.nih.gov/25869930/">Self-Regulation of breathing as a primary treatment for Anxiety. Ravinder et al.(2015).</a>
+          <br></br>
           <a className="white-text-url" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5455070/#">The effect of diaphragmatic breathing on attention, negative affect and stress inhealthy adults. Ma et al., (2017).</a>
         </div>
       </div>
@@ -180,8 +191,11 @@ ple and can easily be integrated into daily routines.</p>
           <div className="flex-column-mobile">
             <p className="white-text-title">Meditation</p>
             <a className="white-text-url" href="https://www.heart.org/-/media/Healthy-Living-Files/Infographics/Loving-Kindness-Meditation-infographic.pdf?rev=f34027bd73174cd9b0be76cba59571ca">American Heart Association: Loving-Kindness Meditation Infographic PDF</a>
+            <br></br>
             <a className="white-text-url" href="https://www.nytimes.com/guides/well/how-to-meditate">New York Times: How to Meditate: A Comprehensive Beginners Guide with Helpful Hints</a>
+            <br></br>
             <a className="white-text-url" href="https://myamericannurse.com/wp-content/uploads/2015/09/ant9-Mindfulness-820.pdf">American Nurse Today: The Mindful Nurse</a>
+            <br></br>
             <a className="white-text-url" href="https://www.nccih.nih.gov/health/meditation-and-mindfulness-what-you-need-to-know">National Centre of Complementary and Integrative Health: Meditation and Mindfulness: What You Need To Know</a>
 
           </div>
@@ -193,6 +207,7 @@ ple and can easily be integrated into daily routines.</p>
         <div className="flex-column-mobile">
             <p className="white-text-title">Breathing Exercises</p>
             <a className="white-text-url" href="https://nursing.rutgers.edu/wp-content/uploads/2020/07/Dr.-Weil-4-7-8-Breathing-Exercise.pdf">Rutgers University Nursing Education: Infographic on the 4-7-8 Breath Relaxation Exercise</a>
+            <br></br>
             <a className="white-text-url" href="https://health.clevelandclinic.org/box-breathing-benefits/">Cleveland Clinic Health Essentials: How to do Box Breathing</a>
 
         </div>
@@ -306,8 +321,8 @@ ple and can easily be integrated into daily routines.</p>
         <p className="white-text-video" style={{ marginTop: "-4%" }}>British Columbia College of Nurses and Midwives: Caring for yourself</p>
   <a className="white-text-url" href="https://www.bccnm.ca/RPN/learning/professional/Pages/fitness_to_practice_self-care.aspx">Case study about self-care and fitness to practice</a>
 
-  <p className="white-text-video">College of Nurses of Ontario: Supporting nurses in self-care:</p>
-  <a className="white-text-url" href="https://www.cno.org/en/protect-public/employer-resources/employers-toolkit-sexual-abuse-prevention/supporting-nurses-in-self-care/">https://www.cno.org/en/protect-public/employer-resources/employers-toolkit-sexual-abuse-prevention/supporting-nurses-in-self-care/</a>
+  <p className="white-text-video">College of Nurses of Ontario</p>
+  <a className="white-text-url" href="https://www.cno.org/en/protect-public/employer-resources/employers-toolkit-sexual-abuse-prevention/supporting-nurses-in-self-care/">Supporting nurses in self-care</a>
 
         </div>
       </div>
