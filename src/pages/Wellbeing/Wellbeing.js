@@ -32,7 +32,7 @@ function Wellbeing() {
           <div className="section-block">
             <p>Emotional resilience and coping mechanisms for health caregivers</p>
             <Link to='/health-resilience'>
-              <button className="section-block-button-one">Click Here</button>
+              <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
         </div>
@@ -41,7 +41,7 @@ function Wellbeing() {
           <div className="section-block">
             <p>Self Care tips for Fasting </p>
             <Link to='/self-care-fasting'>
-              <button className="section-block-button-one">Click Here</button>
+              <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
 
@@ -64,7 +64,7 @@ function Wellbeing() {
           <div className="section-block">
             <p>Microbiome Gut Health</p>
             <Link to='/self-care-gut'>
-              <button className="section-block-button-one">Click Here</button>
+              <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
           

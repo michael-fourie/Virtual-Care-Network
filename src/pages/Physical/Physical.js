@@ -31,7 +31,7 @@ function Phsyical() {
           <div className="section-block">
             <p>Managing the Ethical Dilemma of Elder Abuse</p>
             <Link to='/morals'>
-              <button className="section-block-button-one">Click Here</button>
+              <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
         </div>
@@ -40,7 +40,7 @@ function Phsyical() {
           <div className="section-block">
             <p>Managing the Emotional Distress and Grief over Death and Dying</p>
             <Link to='/manage-distress'>
-              <button className="section-block-button-one">Click Here</button>
+              <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
 

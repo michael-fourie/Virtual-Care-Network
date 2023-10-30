@@ -63,7 +63,10 @@ const InfoSectionLandingThree = ({
                         <Subtitle>Facebook</Subtitle>
                         <HorizontalLine/>
                         <MediaContainer>
-                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdaniellewyatt.turpin%2Fposts%2Fpfbid02Y52KEbB5YFKbJYSZUQRMNWYuuLSRRXnuRPSWf8BSde4YB76gKS9pDFuvBzzLavwQl&show_text=true" width={facebookWidth} height="570" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcooperativecarealliance%2Fposts%2Fpfbid0yqXw4iRXTjdNp4yFUJJ7Vu3c9FyQCu4GAcjSoNeV7zKB2Gw9EiN5AdM9XGtF7Nxyl&show_text=true&width=500" width={facebookWidth} height="580" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </MediaContainer>
+                        <MediaContainer>
+                            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcooperativecarealliance%2Fposts%2Fpfbid07eeXnoichVGtYSsbCtobQa4Bc2LY9BgM2k4GScvLMKPCiJcTnfwgD7jLUJsxuEnAl&show_text=true&width=500" width={facebookWidth} height="580" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </MediaContainer>
                         <Button big fontBig primary={primary}>
                             More
@@ -74,7 +77,7 @@ const InfoSectionLandingThree = ({
                         <Subtitle>Instagram</Subtitle>  
                         <HorizontalLine/>  
                         <MediaContainer>
-                            <iframe src="https://www.instagram.com/p/CrvyIOEO5hj/embed/captioned/?cr=1&amp;v=14&amp;wp=652&amp;rd=http%3A%2F%2Flocalhost%3A3000&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A605.2999999970198%2C%22ls%22%3A544.5999999940395%2C%22le%22%3A578.3999999910593%7D" allowtransparency="true" allowfullscreen="true" frameborder="1" width={instagramWidth} height={isMobile ? "400" : "600"} data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" ></iframe>
+                            <iframe src="https://www.instagram.com/p/CrqyBoKuk69/embed/" allowtransparency="true" allowfullscreen="true" frameborder="1" width={instagramWidth} height={isMobile ? "400" : "600"} data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" ></iframe>
                         </MediaContainer>
                         <MediaContainer>
                             <iframe src="https://www.instagram.com/p/CrvyIOEO5hj/embed/captioned/?cr=1&amp;v=14&amp;wp=652&amp;rd=http%3A%2F%2Flocalhost%3A3000&amp;rp=%2F#%7B%22ci%22%3A0%2C%22os%22%3A605.2999999970198%2C%22ls%22%3A544.5999999940395%2C%22le%22%3A578.3999999910593%7D" allowtransparency="true" allowfullscreen="true" frameborder="1" width={instagramWidth} height={isMobile ? "400" : "600"} data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" ></iframe>
@@ -88,10 +91,10 @@ const InfoSectionLandingThree = ({
                         <Subtitle>Twitter</Subtitle> 
                         <HorizontalLine/>
                         <MediaContainer>
-                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" width={twitterWidth} height="fit-content"/>
+                            <TwitterEmbed url="https://twitter.com/carecoops/status/1717281532165890195" width={twitterWidth} height="fit-content"/>
                         </MediaContainer>
                         <MediaContainer>
-                            <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" width={twitterWidth} height="fit-content"/>
+                            <TwitterEmbed url="https://twitter.com/carecoops/status/1709187452420739173" width={twitterWidth} height="fit-content"/>
                         </MediaContainer>
                         <MediaContainer>
                             <TwitterEmbed url="https://twitter.com/carecoops/status/1654451469427388416?ref_src=twsrc%5Etfw" width={twitterWidth} height="fit-content"/>
@@ -107,3 +110,6 @@ const InfoSectionLandingThree = ({
 }
 
 export default InfoSectionLandingThree;
+
+
+

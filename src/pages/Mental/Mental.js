@@ -32,7 +32,7 @@ function Mental() {
           <div className="section-block">
             <p>Strategies to manage pain and injury</p>
             <Link to='/pain-injury'>
-              <button className="section-block-button-one">Click Here</button>
+              <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
         </div>
