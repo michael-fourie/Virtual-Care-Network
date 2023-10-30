@@ -11,8 +11,8 @@ import ListIcon from '../images/ListIcon.png'
 import AppIcon from '../images/AppIcon.png'
 import WebsiteIcon from '../images/WebsiteIcon.png'
 import FastingIcon from '../images/FastingIcon.png'
-import BloodIcon from '../images/BloodIcon.png'
-import FullBanner from '../images/FullBanner.PNG'
+import Computer from '../images/computer.png'
+import Gut from '../images/gut.png'
 
 function SelfCareGut() {
   return (
@@ -32,7 +32,7 @@ immune function, mental health and control of type 2 diabetes.</p>
 
       <div className="div-nine">
         <div className="flex-row">
-          <img className="icon" src={PodcastIcon} alt="Your Image" />
+          <img className="icon" src={Computer} alt="Your Image" />
           <p className="black-text-title ">Internet Resources</p>
         </div>
         <div className="full-width">
@@ -46,7 +46,7 @@ immune function, mental health and control of type 2 diabetes.</p>
       </div>
 
       <div className="div-four">
-        <img className="icon" src={FullBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
+        <img className="icon" src={Gut} alt="Your Image" style={{ width: '100%', height: '40%' }} />
       </div>
 
       <div className="div-eight">

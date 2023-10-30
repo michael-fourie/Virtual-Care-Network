@@ -12,7 +12,7 @@ import AppIcon from '../images/AppIcon.png'
 import WebsiteIcon from '../images/WebsiteIcon.png'
 import FastingIcon from '../images/FastingIcon.png'
 import BloodIcon from '../images/BloodIcon.png'
-import FullBanner from '../images/FullBanner.PNG'
+import FastingImg from '../images/fast.png'
 
 function SelfCareFasting() {
   return (
@@ -74,7 +74,7 @@ function SelfCareFasting() {
     </div>
 
       <div className="div-four">
-        <img className="icon" src={FullBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
+        <img className="icon" src={FastingImg} alt="Your Image" style={{ width: '100%', height: '40%' }} />
       </div>
 
       <div className="div-eight">

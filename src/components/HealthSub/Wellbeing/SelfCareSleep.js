@@ -11,8 +11,8 @@ import ListIcon from '../images/ListIcon.png'
 import AppIcon from '../images/AppIcon.png'
 import WebsiteIcon from '../images/WebsiteIcon.png'
 import FastingIcon from '../images/FastingIcon.png'
-import BloodIcon from '../images/BloodIcon.png'
-import FullBanner from '../images/FullBanner.PNG'
+import CompIcon from '../images/computer.png'
+import Sleep from '../images/sleep.png'
 
 function SelfCareSleep() {
   return (
@@ -31,7 +31,7 @@ important ways to help to optimize sleep quality.</p>
 
       <div className="div-nine">
         <div className="flex-row">
-          <img className="icon" src={PodcastIcon} alt="Your Image" />
+          <img className="icon" src={CompIcon} alt="Your Image" />
           <p className="black-text-title ">Internet Resources</p>
         </div>
         <div className="full-width">
@@ -48,7 +48,7 @@ important ways to help to optimize sleep quality.</p>
       </div>
 
       <div className="div-four">
-        <img className="icon" src={FullBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
+        <img className="icon" src={Sleep} alt="Your Image" style={{ width: '100%', height: '40%' }} />
       </div>
 
       <div className="div-eight">

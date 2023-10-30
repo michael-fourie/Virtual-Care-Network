@@ -10,7 +10,7 @@ import PodcastIcon from '../images/PodcastIcon.png'
 import ListIcon from '../images/ListIcon.png'
 import AppIcon from '../images/AppIcon.png'
 import WebsiteIcon from '../images/WebsiteIcon.png'
-import FullBanner from '../images/FullBanner.PNG'
+import FullBanner from '../images/death.jpg'
 
 function Death() {
   return (
@@ -88,20 +88,20 @@ unfavourable.</p>
       <div className="div-seven">
         <div className="flex-row">
           <img className="icon" src={SearchIcon} alt="Your Image" />
-          <p className="white-text-title">ToolKits for effective communication</p>
+          <p className="white-text-title">ToolKits for dealing with end of life</p>
         </div>
         <div className="flex-row">
           <div className="flex-column-mobile">
-            <p className="white-text-title">Hospice Palliative Care Ontario</p>
+            <p className="white-text-video">Hospice Palliative Care Ontario</p>
             <a className="white-text-url" href="https://caregiversupport.hpco.ca/ocp/">Caregiver Support Education *note topics 18-20</a>
         </div>
           <div className="flex-column-mobile">
-            <p className="white-text-title">Canadian Virtual Hospice</p>
+            <p className="white-text-video">Canadian Virtual Hospice</p>
             <a className="white-text-url" href="https://www.mygrief.ca/">Centre For Grief & Healing</a>
           </div>
 
           <div className="flex-column-mobile">
-            <p className="white-text-title">My Grief</p>
+            <p className="white-text-video">My Grief</p>
             <a className="white-text-url" href="https://www.bereavedfamilies.ca/tipsheets">Grief Tip Sheets to help workers and families</a>
           </div>
         </div>

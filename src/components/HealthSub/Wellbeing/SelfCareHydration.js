@@ -12,7 +12,7 @@ import AppIcon from '../images/AppIcon.png'
 import WebsiteIcon from '../images/WebsiteIcon.png'
 import FastingIcon from '../images/FastingIcon.png'
 import BloodIcon from '../images/BloodIcon.png'
-import FullBanner from '../images/FullBanner.PNG'
+import Water from '../images/water.png'
 
 function SelfcareHydration() {
   return (
@@ -23,15 +23,11 @@ function SelfcareHydration() {
       </div>
 
       <div className="div-three">
-        <p className="white-text-large">Solutions to increase fluid intake, and the merit of maintaining adequate hydration are discussed below</p>
-      </div>
-
-      <div className="div-three-alt">
-        <p className="white-text-large">How much water per day? 8 oz (237 mL) of fluid per hour for the first 10 hours of your day.</p>
+        <p className="white-text-large">How much water should you drink per day? 8 oz (237 mL) of fluid per hour for the first 10 hours of your day. Solutions to increase fluid intake, and the merit of maintaining adequate hydration are discussed below.</p>
       </div>
 
       <div className="div-four">
-        <img className="icon" src={FullBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
+        <img className="icon" src={Water} alt="Your Image" style={{ width: '100%', height: '40%' }} />
       </div>
     <div className="div-eight">
         <div className="flex-row">

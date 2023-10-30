@@ -10,7 +10,7 @@ import PodcastIcon from '../images/PodcastIcon.png'
 import ListIcon from '../images/ListIcon.png'
 import AppIcon from '../images/AppIcon.png'
 import WebsiteIcon from '../images/WebsiteIcon.png'
-import FullBanner from '../images/FullBanner.PNG'
+import Health from '../images/healthy.jpg'
 
 function PainInjury() {
   return (
@@ -40,7 +40,7 @@ function PainInjury() {
       </div>
 
       <div className="div-four">
-        <img className="icon" src={FullBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
+        <img className="icon" src={Health} alt="Your Image" style={{ width: '100%', height: '40%' }} />
       </div>
 
       <div className="div-five">

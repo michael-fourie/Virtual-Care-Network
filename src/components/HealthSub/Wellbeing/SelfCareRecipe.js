@@ -13,7 +13,7 @@ import WebsiteIcon from '../images/WebsiteIcon.png'
 import FastingIcon from '../images/FastingIcon.png'
 import BloodIcon from '../images/BloodIcon.png'
 import FullBanner from '../images/FullBanner.PNG'
-
+import Lunch from '../images/lunch.png'
 function SelfCareRecipe() {
   return (
     <div className="health-resilience-container">
@@ -45,7 +45,7 @@ and how to make probiotic rich, fermented foods.</p>
 
     <div className="div-six-alt">
         <div className="flex-row">
-          <img className="icon" src={BloodIcon} alt="Your Image" />
+          <img className="icon" src={Lunch} alt="Your Image" />
           <p className="black-text-title ">Healthy, Easy Snack and Meal Ideas</p>
         </div>
         <div className="full-width">
@@ -76,9 +76,7 @@ and how to make probiotic rich, fermented foods.</p>
         </div>
     </div>
 
-      <div className="div-four">
-        <img className="icon" src={FullBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
-      </div>
+    
 
       <div className="div-eight">
         <div className="flex-row">

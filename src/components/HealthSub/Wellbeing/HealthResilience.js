@@ -10,7 +10,7 @@ import PodcastIcon from '../images/PodcastIcon.png'
 import ListIcon from '../images/ListIcon.png'
 import AppIcon from '../images/AppIcon.png'
 import WebsiteIcon from '../images/WebsiteIcon.png'
-import FullBanner from '../images/FullBanner.PNG'
+import Reselience from '../images/resilience.png'
 
 function HealthResilience() {
   return (
@@ -36,7 +36,7 @@ function HealthResilience() {
       </div>
 
       <div className="div-four">
-        <img className="icon" src={FullBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
+        <img className="icon" src={Reselience} alt="Your Image" style={{ width: '100%', height: '40%' }} />
       </div>
 
       <div className="div-five">

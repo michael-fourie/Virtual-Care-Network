@@ -111,6 +111,7 @@
     margin-top: 4%;
     margin-bottom: 4%;
     margin-left: 20%;
+    margin-right: 20%;
     flex-direction: column;
   }
   @media (max-width: 820px) {
@@ -150,7 +151,7 @@
   .black-text-title {
     color: black;
     width: 80%;
-    font-size: 66px;
+    font-size: 56px;
     font-weight: bold;
   }
 

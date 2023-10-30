@@ -10,7 +10,7 @@ import PodcastIcon from '../images/PodcastIcon.png'
 import ListIcon from '../images/ListIcon.png'
 import AppIcon from '../images/AppIcon.png'
 import WebsiteIcon from '../images/WebsiteIcon.png'
-import FullBanner from '../images/FullBanner.PNG'
+import FullBanner from '../images/elder.jpg'
 
 function Moral() {
   return (
