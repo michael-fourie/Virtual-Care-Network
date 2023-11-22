@@ -12,7 +12,7 @@ function Wellbeing() {
       </div>
 
       <div className="sub-header-wellbeing">
-        <h3 className="sub-header-text">Home Healthcare Workers face many challenges in their day-to-day roles. These range from bravely walking into the homes of people they don't know, to managing emotionally and physically draining situations. Learning coping skills, mental strength, and endurance are essential to prevent burnout and to reduce the risk of carrying the trauma of what their clients are going through </h3>
+        <h3 className="sub-header-text">Home Healthcare Workers face many challenges in their day-to-day roles. These range from bravely walking into the homes of people they don't know, to managing emotionally and physically draining situations. </h3>
       </div>
 
       <div className="sub-header-two">
