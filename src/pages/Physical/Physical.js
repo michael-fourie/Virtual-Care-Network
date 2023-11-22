@@ -15,7 +15,7 @@ function Phsyical() {
       </div>
 
       <div className="sub-header-two">
-        <h3 className="sub-header-text-two">Explore our Physical Health resources page, and remember to prioritize your well-being</h3>
+        <h3 className="sub-header-text-two">Explore our Professional Practice Health resources page, and remember to prioritize your well-being</h3>
       </div>
 
       <Link className='flex-link' to='/information'>
