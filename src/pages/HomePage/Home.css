@@ -1,0 +1,134 @@
+.flex-div{
+    height: fit-content;
+    width: 100vw;
+    padding-top: 15em;
+    padding-bottom: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    gap: 3em;
+
+}
+
+.heart-icon{
+    width: 105px;
+    height: 105px;
+}
+
+.heart-text {
+    font-size: 64px;
+    font-weight: 600;
+    width: 55%;
+    text-align: center;
+
+}
+@media (max-width: 767px) {
+    .heart-text {
+        font-size: 38px;
+    }
+}
+
+/* YourComponent.css */
+
+/* Styles for the container */
+.custom-section {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    /* Align text to the left */
+    text-align: left;
+    width: 100vw;
+    background-image: linear-gradient(
+  45deg,
+  hsl(240deg 100% 52%) 0%,
+  hsl(230deg 100% 53%) 11%,
+  hsl(228deg 100% 57%) 22%,
+  hsl(227deg 100% 62%) 33%,
+  hsl(226deg 100% 66%) 44%,
+  hsl(225deg 100% 70%) 56%,
+  hsl(225deg 100% 75%) 67%,
+  hsl(224deg 97% 79%) 78%,
+  hsl(223deg 83% 82%) 89%,
+  hsl(222deg 59% 85%) 100%
+    );
+  }
+  @media (max-width: 767px) {
+    .custom-section {
+      flex-direction: column;
+    }
+}
+  
+  /* Styles for the text content */
+  .text-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* Add other styles as needed */
+  }
+  
+  /* Styles for the photo content */
+  .photo-content {
+    width: 40%;
+    padding: 20px;
+    /* Adjust the width and height of the image container as needed */
+  }
+  
+  @media (max-width: 767px) {
+    .photo-content {
+        width: 100%;
+    }
+}
+
+  /* Styles for the image inside photo-content */
+  .photo-content img {
+    width: 100%;
+    height: auto;
+    /* Add other styles as needed */
+  }
+  @media (max-width: 767px) {
+    .photo-content img {
+        width: 257px;
+    }
+}
+
+.ptag{
+    margin: inherit;
+    font-size: 48px;
+    color: white;
+
+}
+@media (max-width: 767px) {
+    .ptag {
+        font-size:28px;
+    }
+}
+
+h1{
+    font-size: 100px;
+    padding: auto;
+    color: white;
+    margin-bottom: 3%;
+
+}
+@media (max-width: 767px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+
+strong{
+    margin: inherit;
+    font-size: 48px;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    strong {
+        font-size: 28px;
+    }
+}
+
+  

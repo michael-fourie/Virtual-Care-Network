@@ -27,17 +27,12 @@ function PainInjury() {
         </div>
 
         <div className="normal-div">
-          <p className="black-text-sub">Being emotionally resilient is coping with emotional hardships and working through setbacks by harnessing inner strengths, skills, and seeking support. Resilience enables us to maintain control during stressful situations. It is the ability to cope and make good choices without becoming overwhelmed. People who lack resilience are more likely to feel helpless and rely on unhealthy coping strategies such as isolation, and self-medication.</p>
+          <p className="black-text-sub">Home healthcare workers are at high risk of workplace injury due to the repetitive, physical nature of their work.  Since home settings can be unpredictable, a good understanding of the employer's transfer policies, proper body mechanics, and correct stretches and core strengthening exercises can help reduce injury risk. 
+</p>
         </div>
       </div>
 
-      <div className="div-three">
-        <p className="white-text-large">Home healthcare workers are at high risk of workplace injury due to the repetitive, physical nature of their work which includes handling patients. As clients become heavier, older, and sicker the risk of injury increases. Since home settings can be unpredictable, home healthcare workers must know their employer's policies, professional practice standards and guidelines, and what their body can safely manage when it comes to handling patients.</p>
-      </div>
 
-      <div className="div-three-alt">
-        <p className="white-text-large">A good understanding of proper body mechanics and correct technique can further reduce injury risk. Learning exercises to strengthen the muscles of the limbs, core, and back can also help the body to better manage the physical demands of home healthcare work. Understanding the multifaceted importance of stretching, and ways to incorporate stretches into daily workplace routines is of further benefit. As is, increasing awareness of measures to protect the body against the impacts of physically demanding work with things such as proper footwear, compression stockings, and car seat pillows.</p>
-      </div>
 
       <div className="div-four">
         <img className="icon" src={Health} alt="Your Image" style={{ width: '100%', height: '40%' }} />
@@ -194,7 +189,7 @@ function PainInjury() {
           <p className="black-text-video">Strengthen Your Back and Relieve Pain</p> 
           <a className="black-text-url" href="https://appadvice.com/apps/back-muscle-exercise-apps">List of Focused Fitness Apps</a>
           
-          <p className="black-text-video" style={{marginTop: "-4%"}}>VeryWell Fit</p> 
+          <p className="black-text-video" >VeryWell Fit</p> 
           <a className="black-text-url" href="https://www.verywellfit.com/best-stretching-apps-5096980">The 5 Best Stretching Apps of 2023</a>
 
           <p className="black-text-video">Heart Matters Magazine</p> 

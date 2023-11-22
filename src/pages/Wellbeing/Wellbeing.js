@@ -12,58 +12,58 @@ function Wellbeing() {
       </div>
 
       <div className="sub-header-wellbeing">
-        <h3 className="sub-header-text">Your well-being is important, and be seeking support, you can sustain the ability to provide exceptional care.</h3>
+        <h3 className="sub-header-text">Home Healthcare Workers face many challenges in their day-to-day roles. These range from bravely walking into the homes of people they don't know, to managing emotionally and physically draining situations. Learning coping skills, mental strength, and endurance are essential to prevent burnout and to reduce the risk of carrying the trauma of what their clients are going through </h3>
       </div>
 
       <div className="sub-header-two">
         <h3 className="sub-header-text-two">Explore our Well-being resources page, and remember to prioritize your mental and physical health.</h3>
       </div>
+
+      <Link className='flex-link' to='/information'>
+              <button className="learn-button">Learn More and Disclaimer</button>
+      </Link>
       
       <div className="column-outer">
 
         <div className="column-inner">
+          
+
           <div className="section-block">
-            <p>Self Care tips for a good night sleep</p>
-            <Link to='/self-care-sleep'>
+            <p>Building Emotional Resilience</p>
+            <Link to='/health-resilience'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
 
           <div className="section-block">
-            <p>Emotional resilience and coping mechanisms for health caregivers</p>
-            <Link to='/health-resilience'>
+            <p>Managing Distress and Grief over Death</p>
+            <Link to='/manage-distress'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
         </div>
 
         <div className="column-inner">
-          <div className="section-block">
-            <p>Self Care tips for Fasting </p>
-            <Link to='/self-care-fasting'>
-              <button className="section-block-button-two">Click Here</button>
-            </Link>
-          </div>
-
-          <div className="section-block">
-            <p>Fast, Easy, Healthy Eating Tips and Recipes</p>
-            <Link to='/self-care-recipe'>
+        <div className="section-block">
+            <p>Relaxation Techniques</p>
+            <Link to='/relaxation'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
           
         </div>
         <div className="column-inner">
+          
           <div className="section-block">
-            <p>Self Care tips for Hydration</p>
-            <Link to='/self-care-hydration'>
+            <p>Finding Joy at Work</p>
+            <Link to='/joy'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
 
           <div className="section-block">
-            <p>Microbiome Gut Health</p>
-            <Link to='/self-care-gut'>
+            <p>Power of Positive Thinking</p>
+            <Link to='/positive'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>

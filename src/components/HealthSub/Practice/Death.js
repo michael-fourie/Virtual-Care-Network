@@ -23,18 +23,13 @@ function Death() {
       <div className="div-two">
         <div className="flex-row">
           <img className="icon" src={BookIcon} alt="Your Image" />
-          <p className="black-text-title">Strategies to manage the emotional distress associated with the death and dying of
-clients are the topic of this post.</p>
+          <p className="black-text-title">Strategies to manage the emotional distress that come with passing.</p>
         </div>
 
         <div className="normal-div">
           <p className="black-text-sub">Home healthcare workers are exposed to emotional distress and grief associated with
 dying and death due to their work with older adults and people managing serious,
-chronic illnesses. Witnessing the suffering of the loved ones of these clients can
-compound this distress.
-If left unaddressed, cumulative feelings of grief and emotional distress hold numerous
-harms ranging from job dissatisfaction and “burnout” to harbouring destructive feelings
-such as anger and frustration as well as causing physical harms like insomnia.</p>
+chronic illnesses.</p>
         </div>
       </div>
 
@@ -50,18 +45,6 @@ their loved ones.</p>
         <img className="icon" src={FullBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
       </div>
 
-      <div className="div-five">
-        <div className="flex-column">
-          <div className="flex-row-left-margin">
-            <img className="icon" src={FactIcon} alt="Your Image" />
-            <p className="black-text">Fact: Death is inevitable for us all so exploring how to live well, and how to cope with
-death and dying is valuable. The only living beings that have managed to defeat death
-is a tiny jellyfish called the ‘Immortal Jellyfish’. These jellyfish can reverse their life cycle
-and change from mature jellyfish to simple polyps when external conditions are
-unfavourable.</p>
-          </div>
-        </div>
-      </div>
 
 
     <div className="div-eleven">

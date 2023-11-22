@@ -21,9 +21,9 @@ function Relaxation() {
       <div className="div-one">
         <p className="top-text">Relaxation Techniques: Meditation, Tapping and Breathing Exercises.
 Are Calmer Days Comin' Your Way ?</p>
-        <p className="bottom-text">Learn to slow down. Get lost intentionally. Observe how you judge both yourself and
+        <p className="bottom-text">"Learn to slow down. Get lost intentionally. Observe how you judge both yourself and
 
-those around you. Tim Ferriss</p>
+those around you." -Tim Ferriss</p>
       </div>
 
       <div className="div-two">
@@ -46,11 +46,13 @@ fulness while doing everyday activities like taking a walk or being with your fa
       </div>
 
       <div className="div-three">
-        <p className="white-text-large">What can be difficult however, is putting aside time to commit to a daily practice plan
-and to train the mind to focus and be calm. This is especially true for home healthcare
-workers who have no problems nurturing others, but can often overlook themselves.
-The key is to pick techniques that resonate, and are sustainable, accessible, and can be
-incorporated into a daily plan.</p>
+        <p className="white-text-large">Home healthcare workers have no problems nurturing others, but often overlook caring for themselves. Stress, burnout, insomnia, and depression are serious threats that can happen as a result.  One way to overcome these threats is to commit to a daily relaxation practice  
+
+
+
+Breathing exercises, tapping, and meditation are relaxation techniques, supported by evidence, to have numerous physical and psychological benefits. 
+
+</p>
       </div>
 
 

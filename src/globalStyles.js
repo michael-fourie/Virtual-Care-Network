@@ -130,6 +130,30 @@ export const Button = styled.button`
   }
 `;
 
+export const LearnMoreButton = styled.button`
+  border-radius: 4px;
+  padding: ${({ big }) => (big ? '12px 64px' : '10px 20px')};
+  &:hover {
+    cursor: pointer
+    transition: all 0.3s ease-out;
+    background: #fff;
+    background-color: #233d81;
+  }
+  margin: auto;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2em;
+  font-family: 'Source Sans Pro', sans-serif;
+  
+  margin: auto;
+  padding: 8px;
+  background-color: #14234b;
+  color: white;
+  border: none;
+  font-size: 24px;
+
+`;
+
 export const NavButton = styled.button`
   border-radius: 4px;
   background: ${({ primary }) => (primary ? '#4B59F7' : '#0467FB')};

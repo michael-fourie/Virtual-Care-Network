@@ -16,6 +16,22 @@
   }
 }
   
+.flex-link{
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 4em;
+  cursor: pointer;
+}
+  .learn-button {
+    margin: auto;
+    padding: 8px;
+    background-color: #324b8c;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5%;
+
+  }
 
   .image-container {
     width: 100%;

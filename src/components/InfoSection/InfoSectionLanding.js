@@ -1,6 +1,6 @@
 import React from 'react'
 import {HomeInfoSec, InfoRow, InfoColumn, TextWrapper, TopLine, Heading, Subtitle, ImgWrapper, Img} from './InfoSectionLanding.elements'
-import { Container, Button } from '../../globalStyles'
+import { Container, Button, LearnMoreButton } from '../../globalStyles'
 import { Link } from 'react-router-dom'
 import { TypeAnimation } from 'react-type-animation';
 
@@ -44,6 +44,9 @@ import { TypeAnimation } from 'react-type-animation';
                                 />
                             </Heading>
                             <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                            <Link to='/information'>
+                                <LearnMoreButton>Learn More</LearnMoreButton>
+                            </Link>
                             </TextWrapper>
                         </InfoColumn>
                         <InfoColumn>

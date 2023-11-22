@@ -182,7 +182,7 @@ export const SubtitleInfo = styled.p`
   text-align: center;
   margin-bottom: 7%;
   font-size: 26px;
-  width: 70%;
+  width: 100%;
   color: #1c2237;
   @media (min-width: 0px) and (max-width: 768px) {
     width: 90%;

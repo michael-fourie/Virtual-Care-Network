@@ -35,8 +35,7 @@ export const InfoSec = styled.div`
 export const HomeInfoSec = styled.div`
     color: #fff;
     padding: 160px 0;
-    min-height: 80vh;
-    max-height: 80vh;
+    
     @media (min-width: 480px) and (max-width: 1200px) {
       padding: 160px 0;
     }

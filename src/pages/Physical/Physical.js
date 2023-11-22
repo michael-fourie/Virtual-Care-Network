@@ -17,6 +17,10 @@ function Phsyical() {
       <div className="sub-header-two">
         <h3 className="sub-header-text-two">Explore our Physical Health resources page, and remember to prioritize your well-being</h3>
       </div>
+
+      <Link className='flex-link' to='/information'>
+              <button className="learn-button">Learn More and Disclaimer</button>
+      </Link>
       
       <div className="column-outer">
 
@@ -29,7 +33,7 @@ function Phsyical() {
           </div>
 
           <div className="section-block">
-            <p>Managing the Ethical Dilemma of Elder Abuse</p>
+            <p>Elder Abuse</p>
             <Link to='/morals'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
@@ -38,17 +42,24 @@ function Phsyical() {
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Managing the Emotional Distress and Grief over Death and Dying</p>
-            <Link to='/manage-distress'>
+            <p>Care Considerations for Older Adults</p>
+            <Link to='/elder-care'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
 
           <div className="section-block">
+            <p>Professional Development Resources</p>
+            <Link to='/professional-developmet'>
+              <button className="section-block-button-two">Click Here</button>
+            </Link>
+          </div>
+
+        </div>
+        <div className="section-block">
             <p>Reach out, share expereinces, and connect with others on our peer support forum</p>
             <button className="section-block-button-two">Click Here</button>
           </div>
-        </div>
       </div>
     </div>
   );

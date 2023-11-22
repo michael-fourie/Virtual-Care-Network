@@ -54,10 +54,9 @@ const InfoSectionLandingTwo = ({
                         <ImgWrapper start={start}>
                         <ImgIcon src={one} alt="Image 1" />
                         </ImgWrapper>
-                        <Heading>Mental Health Support</Heading>
-                        <p style={{ fontSize: '18px', color: '#333', fontWeight: 'bold', textAlign: 'center' }}>Remember, you are never alone in your journey to better mental health.</p>
+                        <Heading>Preventative Health Support</Heading>
+                        <p style={{ fontSize: '18px', color: '#333', fontWeight: 'bold', textAlign: 'center' }}>Supporting your health with beneficial resources all in one place</p>
                     </DivWithShadow>
-
                     <ContainerInfoSub>
                         <ImgWrapper start={start}>
                             <MentalImg src={mentalimg} style={{ marginBottom: '10%' }}alt="Image 1" />
@@ -67,32 +66,11 @@ const InfoSectionLandingTwo = ({
                             <SubtitleInfo>The Virtual Care Network has recognized the immense stress and emotional toll experienced by healthcare workers on the frontlines. Healthcare workers can access the VCN services without fear of stigma, ensuring their emotional well-being is prioritized.</SubtitleInfo>
                             <Link to='/health' style={{ margin: 'auto' }}>
                                     <Button big fontBig primary={primary}>
-                                            Mental Health Support
+                                            Preventative Health
                                     </Button>
                             </Link>
                         </ContainerInfoColMB>
 
-                    </ContainerInfoSub>
-                    <DivWithShadow>
-                        <ImgWrapper start={start}>
-                            <ImgIcon src={two} alt="Image 2" />
-                        </ImgWrapper>
-                        <Heading>Physical Support</Heading>
-                        <p style={{ fontSize: '18px', color: '#333', fontWeight: 'bold', textAlign: 'center' }}>Lean on us for physical support and assistance.</p>
-                    </DivWithShadow>
-
-                    <ContainerInfoSub>
-                        <ImgWrapper start={start}>
-                            <PhysicalImg src={physicalimg} alt="Image 1" />
-                        </ImgWrapper>
-                        <ContainerInfoCol>
-                            <SubtitleInfo>By utilizing the Virtual Care Network, healthcare professionals can address their physical health needs effectively, ensuring they stay healthy, resilient, and able to provide optimal care to their patients.</SubtitleInfo>
-                            <Link to='/professional-practice' style={{ margin: 'auto' }}>
-                                <Button big fontBig primary={primary}>
-                                        Physical Support
-                                </Button>
-                        </Link>
-                        </ContainerInfoCol>
                     </ContainerInfoSub>
 
                     <DivWithShadow>
@@ -102,7 +80,6 @@ const InfoSectionLandingTwo = ({
                         <Heading>Wellbeing</Heading>
                         <p style={{ fontSize: '18px', color: '#333', fontWeight: 'bold', textAlign: 'center' }}>Your wellbeing matters, and we are here to support you.</p>
                     </DivWithShadow>
-
                     <ContainerInfoSub>
                         <ImgWrapper start={start}>
                             <WellbeingImg src={wellbeingimg} alt="Image 1" />
@@ -117,6 +94,29 @@ const InfoSectionLandingTwo = ({
                         </ContainerInfoCol>
                         
                     </ContainerInfoSub>
+
+                    <DivWithShadow>
+                        <ImgWrapper start={start}>
+                            <ImgIcon src={two} alt="Image 2" />
+                        </ImgWrapper>
+                        <Heading>Professional Practice</Heading>
+                        <p style={{ fontSize: '18px', color: '#333', fontWeight: 'bold', textAlign: 'center' }}>Resources to help guide you to master being a professional, and the challenges that come with it.</p>
+                    </DivWithShadow>
+                    <ContainerInfoSub>
+                        <ImgWrapper start={start}>
+                            <PhysicalImg src={physicalimg} alt="Image 1" />
+                        </ImgWrapper>
+                        <ContainerInfoCol>
+                            <SubtitleInfo>By utilizing the Virtual Care Network, healthcare professionals can address their physical health needs effectively, ensuring they stay healthy, resilient, and able to provide optimal care to their patients.</SubtitleInfo>
+                            <Link to='/professional-practice' style={{ margin: 'auto' }}>
+                                <Button big fontBig primary={primary}>
+                                        Physical Support
+                                </Button>
+                        </Link>
+                        </ContainerInfoCol>
+                    </ContainerInfoSub>
+
+                    
                 </ContainerInfoCol>
             </InfoSec>
         </>

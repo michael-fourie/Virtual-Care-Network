@@ -81,11 +81,17 @@ function Navbar() {
                                 Home
                             </NavLinks>
                         </NavItem>
+
+                        <NavItem onClick={handleHomeClick} homeClick={homeClick}>
+                            <NavLinks to='/information' onClick={closeMobileMenu}>
+                                Learn More
+                            </NavLinks>
+                        </NavItem>
                     
                     
                         <NavItem onClick={handleServicesClick} servicesClick={servicesClick}>
                             <NavLinks to='/health' onClick={closeMobileMenu}>
-                                Health
+                                Preventative Health
                             </NavLinks>
                         </NavItem>
 

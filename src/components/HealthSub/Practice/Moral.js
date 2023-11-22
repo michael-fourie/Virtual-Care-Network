@@ -105,7 +105,7 @@ abuse.</p>
         </div>
         <div className="full-width">
         <p className="black-text-video">Alberta Elder Abuse Awareness Program: Video Resources</p>
-<a className="black-text-url" href="https://albertaelderabuse.ca/resources/videos">https://albertaelderabuse.ca/resources/videos</a>
+<a className="black-text-url" href="https://albertaelderabuse.ca/resources/videos">Alberta Elder Abuse Resources</a>
 
         </div>
       </div>
