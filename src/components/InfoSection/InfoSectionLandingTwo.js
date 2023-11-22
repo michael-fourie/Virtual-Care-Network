@@ -7,7 +7,7 @@ import two from "../../images/iconTwo.png"
 import three from "../../images/iconThree.png"
 import mentalimg from "../../images/mental-img.png"
 import physicalimg from "../../images/physical-img.PNG"
-import wellbeingimg from "../../images/wellbeing-img.PNG"
+import wellbeingimg from "../../images/wellbeing-img.jpg"
 
 const InfoSectionLandingTwo = ({ 
     
@@ -85,7 +85,7 @@ const InfoSectionLandingTwo = ({
                             <WellbeingImg src={wellbeingimg} alt="Image 1" />
                         </ImgWrapper>
                         <ContainerInfoCol>
-                            <SubtitleInfo>Healthcare workers can access a variety of support systems tailored to promote their wellbeing, including mental health check-ins, and resources for stress management and self-care. The VCN allows for flexibility in scheduling, allowing healthcare workers to seek support at their convenience, even during irregular hours or busy shifts.</SubtitleInfo>
+                            <SubtitleInfo>Healthcare workers can access a variety of support systems tailored to promote their wellbeing. The VCN allows for flexibility in scheduling, allowing healthcare workers to seek support at their convenience, or even during irregular hours or busy shifts.VCN allows for flexibility in scheduling, allowing healthcare workers to seek support at their convenience, even during irregular hours or busy shifts.</SubtitleInfo>
                             <Link to='/wellbeing' style={{ margin: 'auto' }}> 
                                 <Button big fontBig primary={primary} style={{ margin: 'auto' }}>
                                         Wellbeing Support
