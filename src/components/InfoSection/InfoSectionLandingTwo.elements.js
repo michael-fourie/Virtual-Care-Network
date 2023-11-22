@@ -91,7 +91,7 @@ export const MentalImg = styled.img`
 margin: auto;
 padding-right: 0;
 border: 0;
-max-width: 65%;
+max-width: 100%;
 vertical-align: middle;
 display: inline-block;
 border: 2px solid black; /* Border around the image with a thickness of 4px and a black color */

@@ -58,6 +58,7 @@ export const ContainerInfoColMB = styled.div`
   justify-content: center;
   gap: 5%;
   margin-bottom: 8%;
+
 `;
 
 export const ContainerInfoSub = styled.div`
@@ -69,6 +70,7 @@ export const ContainerInfoSub = styled.div`
   justify-content: center;
   align-items: center;
   margin-bottom: 5%;
+  gap: 2em;
   @media (min-width: 900px) and (max-width: 12000px) {
     flex-direction: row;
   }

@@ -85,6 +85,11 @@
     font-weight: 100;
     color: black;
   }
+  @media (max-width: 767px) {
+    .sub-header-text-two{
+      font-size: 18px;
+    }
+  }
 
   .column-outer {
     margin: auto;
