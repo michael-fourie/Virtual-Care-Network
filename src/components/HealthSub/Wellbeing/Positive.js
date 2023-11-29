@@ -48,10 +48,6 @@ Brain function and its role in rewiring the way we think, learn, break habits,  
           </div>
       </div>
 
-      <div className="div-four">
-        <img className="icon" src={Gut} alt="Your Image" style={{ width: '100%', height: '40%' }} />
-      </div>
-
       <div className="div-eight">
         <div className="flex-row">
           <img className="icon" src={VideoIcon} alt="Your Image" />

@@ -32,7 +32,7 @@ const Infomration = () => {
       {/* Third div */}
       <div className="content">
         <div className="text">
-          <h2>We are the Canadian Care Workers Co-operative</h2>
+          <h2>In Collaboration with Home Care Workers Cooperative</h2>
           <p>As a collaborative of fellow home healthcare workers, clients their families, and concerned citizens, we seek to provide much-needed support and respect to those who work in home healthcare. This website is a living document. Therein, it's intended to grow and adapt to ensure its content gives home healthcare workers the support they need. This site belongs to Home Healthcare Workers !</p>
         </div>
         <div className="image">

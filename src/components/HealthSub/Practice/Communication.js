@@ -50,10 +50,6 @@ and non-verbal indicators / body language.</p>
       </div>
 
 
-      <div className="div-four">
-        <img className="icon" src={CommBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
-      </div>
-
       <div className="div-five">
         <div className="flex-column">
           <div className="flex-row-left-margin">

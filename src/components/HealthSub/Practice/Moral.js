@@ -48,11 +48,6 @@ that uphold ethical standards help home healthcare workers foster trust and cont
 to the betterment of their client's safety and welfare.</p>
       </div>
 
-
-      <div className="div-four">
-        <img className="icon" src={FullBanner} alt="Your Image" style={{ width: '100%', height: '40%' }} />
-      </div>
-
       <div className="div-five">
         <div className="flex-column">
           <div className="flex-row-left-margin">

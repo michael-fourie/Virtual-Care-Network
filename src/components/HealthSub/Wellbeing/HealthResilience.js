@@ -35,9 +35,6 @@ function HealthResilience() {
         <p className="white-text-large">Home healthcare workers must bravely walk into the houses and apartments of people they don’t know. They must contend with many challenges from families in distress and clients who are unable or unwilling to welcome them. Every day they rely on mental strength and endurance to cope with the demanding, emotionally draining nature of this work. Another threat to home healthcare workers’ well-being is compassion fatigue. Compassion fatigue is when compassion for clients can become eroding and negatively impact home health workers. Without resilience and skills to manage these kinds of stressors, home healthcare workers can get caught in a vicious cycle of burnout and carrying the trauma of what their clients are going through.</p>
       </div>
 
-      <div className="div-four">
-        <img className="icon" src={Reselience} alt="Your Image" style={{ width: '100%', height: '40%' }} />
-      </div>
 
       <div className="div-five">
         <div className="flex-column">

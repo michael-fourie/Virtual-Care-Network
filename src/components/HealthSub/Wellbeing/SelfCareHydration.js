@@ -26,9 +26,6 @@ function SelfcareHydration() {
         <p className="white-text-large">How much water should you drink per day? 8 oz (237 mL) of fluid per hour for the first 10 hours of your day. Solutions to increase fluid intake, and the merit of maintaining adequate hydration are discussed below.</p>
       </div>
 
-      <div className="div-four">
-        <img className="icon" src={Water} alt="Your Image" style={{ width: '100%', height: '40%' }} />
-      </div>
     <div className="div-eight">
         <div className="flex-row">
           <img className="icon" src={VideoIcon} alt="Your Image" />

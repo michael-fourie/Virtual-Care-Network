@@ -39,10 +39,6 @@ function BackPain() {
         </div>
       </div>
 
-      <div className="div-four">
-        <img className="icon" src={Health} alt="Your Image" style={{ width: '100%', height: '40%' }} />
-      </div>
-
       <div className="div-eleven">
         <div className="flex-row">
           <img className="icon" src={WebsiteIcon} alt="Your Image" />

@@ -3,6 +3,10 @@ import './Physical.css';
 import banner from "../../images/professional-practice-banner.jpg"
 import { Link } from 'react-router-dom/cjs/react-router-dom';
 function Phsyical() {
+  const handleClick = () => {
+    window.location.assign('https://carecooperatives91459d8a78.wpcomstaging.com/');
+  };
+
   return (
     <div className="container">
       
@@ -11,13 +15,8 @@ function Phsyical() {
       </div>
 
       <div className="sub-header-physical">
-        <h3 className="sub-header-text">The demanding and physically challenging nature of healthcare work can take a toll on our bodies. Your physical health matters, and by seeking support, you can continue to provide excpetional care.</h3>
+        <h3 className="sub-header-text">Supporting Professional Practice</h3>
       </div>
-
-      <div className="sub-header-two">
-        <h3 className="sub-header-text-two">Explore our Professional Practice Health resources page, and remember to prioritize your well-being</h3>
-      </div>
-
       <Link className='flex-link' to='/information'>
               <button className="learn-button">Learn More and Disclaimer</button>
       </Link>
@@ -26,14 +25,14 @@ function Phsyical() {
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Improving communication skills for effective communication</p>
+            <p className='section-text'>Improving communication skills for effective communication</p>
             <Link to='/communication'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
 
           <div className="section-block">
-            <p>Elder Abuse</p>
+            <p className='section-text'>Elder Abuse</p>
             <Link to='/morals'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
@@ -42,14 +41,14 @@ function Phsyical() {
 
         <div className="column-inner">
           <div className="section-block">
-            <p>Care Considerations for Older Adults</p>
+            <p className='section-text'>Care Considerations for Older Adults</p>
             <Link to='/elder-care'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
           </div>
 
           <div className="section-block">
-            <p>Professional Development Resources</p>
+            <p className='section-text'>Professional Development Resources</p>
             <Link to='/professional-developmet'>
               <button className="section-block-button-two">Click Here</button>
             </Link>
@@ -57,8 +56,10 @@ function Phsyical() {
 
         </div>
         <div className="section-block">
-            <p>Reach out, share expereinces, and connect with others on our peer support forum</p>
-            <button className="section-block-button-two">Click Here</button>
+            <p className='section-text'>Reach out, share expereinces, and connect with others on our peer support forum</p>
+            <div>
+              <button onClick={handleClick} className="section-block-button-two">Click Here</button>
+            </div>
           </div>
       </div>
     </div>

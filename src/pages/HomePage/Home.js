@@ -45,21 +45,6 @@ const Home = () => {
             <InfoSectionLandingTwo {...homeObjTwo} />
             <CurrentEventInfo {...currentEvents}/>
             <InfoSectionLandingThree {...homeObjThree} />
-            <div className='custom-section'>
-                <div className='text-content'>
-                    <h1>Virtual Care Network</h1>
-                    <p className='ptag'>Get in Touch</p>
-                    <strong>Mailing Address</strong>
-                    <p className='ptag'>123 Anywher St. Any City, ST 1234</p>
-                    <strong>Email Address</strong>
-                    <p className='ptag'>email@email.com</p>
-                    <strong>Phone Number</strong>
-                    <p className='ptag'>(123)-456-7895</p>
-                </div>
-                <div className='photo-content'>
-                    <img src={contact} alt='Your Image' />
-                </div>
-            </div>
             <InfoSectionLandingFour {...homeObjFour} />
         </>
     )

@@ -110,7 +110,7 @@ const InfoSectionLandingTwo = ({
                             <SubtitleInfo>By utilizing the Virtual Care Network, healthcare professionals can address their physical health needs effectively, ensuring they stay healthy, resilient, and able to provide optimal care to their patients.</SubtitleInfo>
                             <Link to='/professional-practice' style={{ margin: 'auto' }}>
                                 <Button big fontBig primary={primary}>
-                                        Physical Support
+                                        Professional Practice
                                 </Button>
                         </Link>
                         </ContainerInfoCol>
