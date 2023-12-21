@@ -154,6 +154,13 @@
     font-size: 18px;
   }
 
+  @media (max-width: 767px) {
+    .section-block-button-two {
+      font-size: 14px;
+    }
+  }
+  
+
   .text-block {
     margin-bottom: 20px;
   }

@@ -117,6 +117,12 @@
 .section-text{
   font-size: 32px;
 }
+@media (max-width: 767px) {
+  .section-text {
+    font-size: 16px;
+  }
+}
+
   .section-block {
 
     display: flex;
@@ -173,6 +179,12 @@
     transform: scale(0.95); /* Slightly smaller size on hover (95% of the original size) */
     cursor: pointer;
   }
+  @media (max-width: 767px) {
+    .section-block-button-two {
+      font-size: 14px;
+    }
+  }
+  
 
   .text-block {
     margin-bottom: 20px;

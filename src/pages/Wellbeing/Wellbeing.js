@@ -16,7 +16,7 @@ function Wellbeing() {
       </div>
 
       <div className="sub-header-wellbeing">
-        <h3 className="sub-header-text">Home Healthcare Workers face many challenges in their day-to-day roles. These range from bravely walking into the homes of people they don't know, to managing emotionally and physically draining situations. </h3>
+        <h3 className="sub-header-text">Supporting your wellbeing. </h3>
       </div>
       <Link className='flex-link' to='/information'>
               <button className="learn-button">Learn More and Disclaimer</button>
